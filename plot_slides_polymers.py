@@ -27,13 +27,14 @@ if 'cost_and_em_actual' not in globals():
 # === ENDE DEBUGGING-CODE ===
 
 project_names = [
-  #'Zement f)',
-    'Pyrolyse',
-    'Hydrocracking',
-    #'Gasifizierung-FT',
+#'Zement f)',
     'E-Steamcracker Naphtha',
+    'Pyrolyse',
     'Pyrolyse E-Steamcracker',
-    'Hydrocracking E-Steamcracker']
+    'Hydrocracking',
+    'Hydrocracking E-Steamcracker',
+    'Gasifizierung-FT',
+    'Gasifizierung-FT E-Steamcracker']
 #plot_project_cost_time_curves(cost_and_em_actual, config=setup.config, print_name='compare_sectors',
 #                              **{'Project name': project_names})
 
@@ -72,12 +73,13 @@ if 'cost_and_em_actual' not in globals():
 
 project_names = [
     #'Zement f)',
-    'Pyrolyse',
-    'Hydrocracking',
-    #'Gasifizierung-FT',
     'E-Steamcracker Naphtha',
+    'Pyrolyse',
     'Pyrolyse E-Steamcracker',
-    'Hydrocracking E-Steamcracker']
+    'Hydrocracking',
+    'Hydrocracking E-Steamcracker',
+    'Gasifizierung-FT',
+    'Gasifizierung-FT E-Steamcracker']
 for project_name in project_names:
     plot_stacked_bars(cost_and_em_actual, setup.config, project_name=project_name,
                       cost_per='product', emission_diff=False)
@@ -112,12 +114,13 @@ if 'setup' not in globals():
 
 project_names = [
     #'Zement f)',
-    'Pyrolyse',
-    'Hydrocracking',
-    #'Gasifizierung-FT',
     'E-Steamcracker Naphtha',
+    'Pyrolyse',
     'Pyrolyse E-Steamcracker',
-    'Hydrocracking E-Steamcracker']
+    'Hydrocracking',
+    'Hydrocracking E-Steamcracker',
+    'Gasifizierung-FT',
+    'Gasifizierung-FT E-Steamcracker']
 #plot_h2share_scenarios(setup, project_names, 'h2share', 'vary_h2share')
 
 
