@@ -80,6 +80,9 @@ project_names = [
     'Hydrocracking E-Steamcracker',
     'Gasifizierung-FT',
     'Gasifizierung-FT E-Steamcracker']
+
+plot_stacked_bars_multi(cost_and_em_actual, setup.config, project_names,
+                        cost_per='product', emission_diff=False, project_ref="Pyrolyse")
 for project_name in project_names:
     plot_stacked_bars(cost_and_em_actual, setup.config, project_name=project_name,
                       cost_per='product', emission_diff=False)
