@@ -54,4 +54,9 @@ Gasifizierung_FT_eSteamcracker_Recycling,,Energy demand,Electricity,,,2022,,5.39
 Gasifizierung_FT_eSteamcracker_Recycling,,Feedstock demand,PCW,,,2022,,2.21,,t/t_product,,,,Bericht
 Gasifizierung_FT_eSteamcracker_Recycling,,Emissions,CO2,,,2022,,2.84,,t/t_product,,,,Bericht
 Gasifizierung_FT_eSteamcracker_Recycling,,OPEX,Additional OPEX,,,2022,,543.91,,€/t_product,,,,Bericht
-
+Mechanisches_Recycling,,High CAPEX,CAPEX,,,2022,,111.76,,€/t annual production capacity,,,,Bericht
+Mechanisches_Recycling,,Energy demand,Natural Gas,,,2022,,0,,MWh/t_product,,,,Bericht
+Mechanisches_Recycling,,Energy demand,Electricity,,,2022,,0.703,,MWh/t_product,,,,Bericht
+Mechanisches_Recycling,,Feedstock demand,PCW,,,2022,,2.36,,t/t_product,,,,Bericht
+Mechanisches_Recycling,,Emissions,CO2,,,2022,,0.471,,t/t_product,,,,Bericht
+Mechanisches_Recycling,,OPEX,Additional OPEX,,,2022,,185.18,,€/t_product,,,,Bericht

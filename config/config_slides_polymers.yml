@@ -28,7 +28,8 @@ scenarios_actual:
   free_allocations: ''
   prices:
     Electricity: 'Ariadne-Indikation-KN2024_Mix-Electricity-EI'
-    CO2: 'Adriadne-Indikation-KN2045_Mix'
+    CO2: 'Ariadne-Indikation-KN2045_Mix'
+    #CO2: 'Ariadne-Indikation-ExPol'
     Natural Gas: 'Ariadne-Indikation-KN2024_Mix-NG-EI'
     Hydrogen: 'Ariadne-Indikation-KN2024_Mix-Hydrogen-EI'
     Coking Coal: '100 steady'
@@ -39,3 +40,4 @@ scenarios_actual:
     Naphta: 'Naphtha a)'
     PCW: 'ExpertGuess-PCW'
     CO2 EoL: 'Ariadne-Indikation-KN2045_Mix'
+    #CO2 EoL: 'Ariadne-Indikation-ExPol'
