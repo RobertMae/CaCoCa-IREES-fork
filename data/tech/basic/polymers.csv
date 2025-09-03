@@ -1,33 +1,33 @@
 ﻿Technology,Mode,Type,Component,Subcomponent,Region,Period,Usage,Value,Uncertainty,Unit,Non-unit conversion factor,Value and uncertainty comment,Source reference,Source comment
-Steamcracker_Naphtha,,High CAPEX,CAPEX,,,2022,,3204.93,,€/t annual production capacity,,,,Bericht
+Steamcracker_Naphtha,,High CAPEX,CAPEX,,,2022,,3503.69,,€/t annual production capacity,,,,Bericht
 Steamcracker_Naphtha,,Energy demand,Natural Gas,,,2022,,4.65,,MWh/t_product,,,,Bericht
 Steamcracker_Naphtha,,Energy demand,Electricity,,,2022,,0.51,,MWh/t_product,,,,Bericht
-Steamcracker_Naphtha,,Feedstock demand,Naphta,,,2022,,1.34,,t/t_product,,,,Bericht
+Steamcracker_Naphtha,,Feedstock demand,Naphta,,,2022,,1.015,,t/t_product,,,,Bericht
 Steamcracker_Naphtha,,Emissions,CO2,,,2022,,1.57,,t/t_product,,,,Bericht
 Steamcracker_Naphtha,,Feedstock demand,CO2 EoL,,,2022,,3.14,,t/t_product,,,,Bericht
-Steamcracker_Naphtha,,OPEX,Additional OPEX,,,2022,,83,,€/t_product,,,2.5% CAPEX,Bericht
-eSteamcracker_Naphtha,,High CAPEX,CAPEX,,,2022,,3204.93,,€/t annual production capacity,,,,Bericht
+Steamcracker_Naphtha,,OPEX,Additional OPEX,,,2022,,91.87,,€/t_product,,,2.5% CAPEX,Bericht
+eSteamcracker_Naphtha,,High CAPEX,CAPEX,,,2022,,3503.69,,€/t annual production capacity,,,,Bericht
 eSteamcracker_Naphtha,,Energy demand,Natural Gas,,,2022,,0,,MWh/t_product,,,,Bericht
 eSteamcracker_Naphtha,,Energy demand,Electricity,,,2022,,5.16,,MWh/t_product,,,,Bericht
-eSteamcracker_Naphtha,,Feedstock demand,Naphta,,,2022,,1.34,,t/t_product,,,,Bericht
+eSteamcracker_Naphtha,,Feedstock demand,Naphta,,,2022,,1.015,,t/t_product,,,,Bericht
 eSteamcracker_Naphtha,,Emissions,CO2,,,2022,,0.2,,t/t_product,,,,Bericht
 eSteamcracker_Naphtha,,Feedstock demand,CO2 EoL,,,2022,,3.14,,t/t_product,,,,Bericht
-eSteamcracker_Naphtha,,OPEX,Additional OPEX,,,2022,,83,,€/t_product,,,2.5% CAPEX,Bericht
-Pyrolyse_Steamcracker_Recycling,,High CAPEX,CAPEX,,,2022,,5063.18,,€/t annual production capacity,,,,Bericht
+eSteamcracker_Naphtha,,OPEX,Additional OPEX,,,2022,,91.87,,€/t_product,,,2.5% CAPEX,Bericht
+Pyrolyse_Steamcracker_Recycling,,High CAPEX,CAPEX,,,2022,,5002.65,,€/t annual production capacity,,,,Bericht
 Pyrolyse_Steamcracker_Recycling,,Energy demand,Natural Gas,,,2022,,5.81,,MWh/t_product,,,,Bericht
-Pyrolyse_Steamcracker_Recycling,,Energy demand,Electricity,,,2022,,2.76404,,MWh/t_product,,,,Bericht
-Pyrolyse_Steamcracker_Recycling,,Feedstock demand,PCW,,,2022,,2.96,,t/t_product,,,,Bericht
-Pyrolyse_Steamcracker_Recycling,,Feedstock demand,Hydrogen,,,2022,,17.78,,kg/t_product,,,,Bericht
-Pyrolyse_Steamcracker_Recycling,,Emissions,CO2,,,2022,,2.84619,,t/t_product,,,,Bericht
-Pyrolyse_Steamcracker_Recycling,,OPEX,Additional OPEX,,,2022,,233,,€/t_product,,,,Bericht
-Pyrolyse_eSteamcracker_Recycling,,High CAPEX,CAPEX,,,2022,,5063.18,,€/t annual production capacity,,,,Bericht
+Pyrolyse_Steamcracker_Recycling,,Energy demand,Electricity,,,2022,,2.42,,MWh/t_product,,,,Bericht
+Pyrolyse_Steamcracker_Recycling,,Feedstock demand,PCW,,,2022,,1.801,,t/t_product,,,,Bericht
+Pyrolyse_Steamcracker_Recycling,,Feedstock demand,Hydrogen,,,2022,,10.089,,kg/t_product,,,,Bericht
+Pyrolyse_Steamcracker_Recycling,,Emissions,CO2,,,2022,,2.4803,,t/t_product,,,,Bericht
+Pyrolyse_Steamcracker_Recycling,,OPEX,Additional OPEX,,,2022,,243.27,,€/t_product,,,,Bericht
+Pyrolyse_eSteamcracker_Recycling,,High CAPEX,CAPEX,,,2022,,5002.65,,€/t annual production capacity,,,,Bericht
 Pyrolyse_eSteamcracker_Recycling,,Energy demand,Natural Gas,,,2022,,0,,MWh/t_product,,,,Bericht
-Pyrolyse_eSteamcracker_Recycling,,Energy demand,Electricity,,,2022,,7.26,,MWh/t_product,,,,Bericht
-Pyrolyse_eSteamcracker_Recycling,,Feedstock demand,PCW,,,2022,,2.96,,t/t_product,,,,Bericht
-Pyrolyse_eSteamcracker_Recycling,,Feedstock demand,Hydrogen,,,2022,,17.78,,kg/t_product,,,,Bericht
-Pyrolyse_eSteamcracker_Recycling,,Emissions,CO2,,,2022,,2.84,,t/t_product,,,,Bericht
+Pyrolyse_eSteamcracker_Recycling,,Energy demand,Electricity,,,2022,,6.92,,MWh/t_product,,,,Bericht
+Pyrolyse_eSteamcracker_Recycling,,Feedstock demand,PCW,,,2022,,1.80,,t/t_product,,,,Bericht
+Pyrolyse_eSteamcracker_Recycling,,Feedstock demand,Hydrogen,,,2022,,10.809,,kg/t_product,,,,Bericht
+Pyrolyse_eSteamcracker_Recycling,,Emissions,CO2,,,2022,,2.48,,t/t_product,,,,Bericht
 Pyrolyse_Steamcracker_Recycling,,Emissions,CO2 EoL,,,2022,,3.14,,t/t_product,,,,Bericht
-Pyrolyse_eSteamcracker_Recycling,,OPEX,Additional OPEX,,,2022,,233,,€/t_product,,,,Bericht
+Pyrolyse_eSteamcracker_Recycling,,OPEX,Additional OPEX,,,2022,,243.27,,€/t_product,,,,Bericht
 Hydrocracking_Steamcracker_Recycling,,High CAPEX,CAPEX,,,2022,,6914.72,,€/t annual production capacity,,,,Bericht
 Hydrocracking_Steamcracker_Recycling,,Energy demand,Natural Gas,,,2022,,4.65,,MWh/t_product,,,,Bericht
 Hydrocracking_Steamcracker_Recycling,,Energy demand,Electricity,,,2022,,1.11,,MWh/t_product,,,,Bericht
@@ -60,3 +60,14 @@ Mechanisches_Recycling,,Energy demand,Electricity,,,2022,,0.703,,MWh/t_product,,
 Mechanisches_Recycling,,Feedstock demand,PCW,,,2022,,2.36,,t/t_product,,,,Bericht
 Mechanisches_Recycling,,Emissions,CO2,,,2022,,0.471,,t/t_product,,,,Bericht
 Mechanisches_Recycling,,OPEX,Additional OPEX,,,2022,,185.18,,€/t_product,,,,Bericht
+Methanolroute,,High CAPEX,CAPEX,,,2022,,5627.57,,€/t annual production capacity,,,,Bericht
+Methanolroute,,Energy demand,Electricity,,,2022,,11.35,,MWh/t_product,,,,Bericht
+Methanolroute,,Emissions,CO2,,,2022,,0.698,,t/t_product,,,,Bericht
+Methanolroute,,OPEX,Additional OPEX,,,2022,,137.12,,€/t_product,,,,Bericht
+Methanolroute,,Feedstock demand,Hydrogen,,,2022,,495.59,,kg/t_product,,,,Bericht
+FT-Route,,High CAPEX,CAPEX,,,2022,,5855.60,,€/t annual production capacity,,,,Bericht
+FT-Route,,Energy demand,Electricity,,,2022,,8.426,,MWh/t_product,,,,Bericht
+FT-Route,,Emissions,CO2,,,2022,,0.58516,,t/t_product,,,,Bericht
+FT-Route,,OPEX,Additional OPEX,,,2022,,150.63,,€/t_product,,,,Bericht
+FT-Route,,Feedstock demand,Hydrogen,,,2022,,468.83,,kg/t_product,,,,Bericht
+

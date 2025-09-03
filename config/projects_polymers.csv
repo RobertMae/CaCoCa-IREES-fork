@@ -61,4 +61,5 @@ Pyrolyse E-Steamcracker,1,polymers,Pyrolyse_eSteamcracker_Recycling,1,1,8760,30,
 Hydrocracking E-Steamcracker,1,polymers,Hydrocracking_eSteamcracker_Recycling,1,1,8760,30,2025,15,,1,H2-only
 Gasifizierung-FT E-Steamcracker,1,polymers,Gasifizierung_FT_eSteamcracker_Recycling,1,1,8760,30,2025,15,,1,H2-only
 Mechanisches Recycling,1,polymers,Mechanisches_Recycling,1,1,8760,15,2025,15,,1,H2-only
-
+Methanolroute,1,polymers,Methanolroute,1,1,8760,30,2025,15,,1,H2-only
+Fischer-Tropsch,1,polymers,FT-Route,1,1,8760,30,2025,15,,1,H2-only

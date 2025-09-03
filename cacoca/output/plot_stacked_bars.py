@@ -10,6 +10,7 @@ from .plot_tools import display_name as dn
 colors = {
     'CAPEX annuity': 'rgb(0.4, 0.4, 0.4)',
     'Additional OPEX': 'rgb(0.7, 0.7, 0.7)',
+    'PCW': pl.colors.qualitative.Dark24[16],
     'Iron Ore': pl.colors.qualitative.Dark24[3],
     'DRI-Pellets': pl.colors.qualitative.Dark24[4],
     'Scrap Steel': pl.colors.qualitative.Dark24[14],
@@ -21,8 +22,7 @@ colors = {
     'Electricity': pl.colors.qualitative.Dark24[2],
     'Effective CO2 Price': 'rgb(0.2, 0.2, 0.2)',
     'CO2 Cost': 'rgb(0.2, 0.2, 0.2)',
-    'PCW': pl.colors.qualitative.Dark24[16],
-    'CO2 EoL': pl.colors.qualitative.Dark24[1]
+    'CO2 EoL': pl.colors.qualitative.Dark24[22]
 }
 
 def plot_stacked_bars_multi(projects: pd.DataFrame, config: dict, project_names: list[str],
