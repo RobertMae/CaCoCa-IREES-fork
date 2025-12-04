@@ -81,7 +81,10 @@ display_names = {
     'CO2 Cost': 'Emissionskostendiff. (ETS)',
     'PCW': 'Post-consumer Kunststoffabfälle',
     'CO2 EoL': 'CO2 EoL',
-    'Naphta': 'Naphtha'
+    'Naphta': 'Naphtha',
+    'Biomass': 'Biomasse',
+    'Bioethanol': 'Bioethanol',
+    'Biobutene': 'Biobuten',
 }
 
 

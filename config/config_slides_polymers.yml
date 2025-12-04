@@ -41,3 +41,6 @@ scenarios_actual:
     PCW: 'ExpertGuess-PCW'
     CO2 EoL: 'Ariadne-Indikation-KN2045_Mix'
     #CO2 EoL: 'Ariadne-Indikation-ExPol'
+    Biomass: 'ExpertGuess-Biomass'
+    Bioethanol: 'ExpertGuess-Bioethanol'
+    Biobutene: 'ExpertGuess-Biobutene'

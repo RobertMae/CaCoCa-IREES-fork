@@ -22,7 +22,10 @@ colors = {
     'Electricity': pl.colors.qualitative.Dark24[2],
     'Effective CO2 Price': 'rgb(0.2, 0.2, 0.2)',
     'CO2 Cost': 'rgb(0.2, 0.2, 0.2)',
-    'CO2 EoL': pl.colors.qualitative.Dark24[22]
+    'CO2 EoL': pl.colors.qualitative.Dark24[22],
+    'Biomass': pl.colors.qualitative.Dark24[18],
+    'Bioethanol': pl.colors.qualitative.Dark24[19],
+    'Biobutene': pl.colors.qualitative.Dark24[20]
 }
 
 def plot_stacked_bars_multi(projects: pd.DataFrame, config: dict, project_names: list[str],

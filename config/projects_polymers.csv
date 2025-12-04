@@ -63,3 +63,6 @@ Gasifizierung-FT E-Steamcracker,1,polymers,Gasifizierung_FT_eSteamcracker_Recycl
 Mechanisches Recycling,1,polymers,Mechanisches_Recycling,1,1,8760,15,2025,15,,1,H2-only
 Methanolroute,1,polymers,Methanolroute,1,1,8760,30,2025,15,,1,H2-only
 Fischer-Tropsch,1,polymers,FT-Route,1,1,8760,30,2025,15,,1,H2-only
+Biomethanol,1,polymers,Biomethanol,1,1,8760,30,2025,15,,1,H2-only
+Biomasse-DME-MTO,1,polymers,Biomasse-DME-MTO,1,1,8760,30,2025,15,,1,H2-only
+Bioethanol,1,polymers,Bioethanol,1,1,8760,30,2025,15,,1,H2-only
