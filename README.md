@@ -22,6 +22,15 @@ To reproduce the main results:
 
 All techno-economic input data used in the publication are derived from literature sources cited in the manuscript. The example data included in the original CaCoCa repository are not used for the published results.
 
+## Scenario and technology inputs
+
+Key techno-economic and price inputs used in the study are provided in:
+
+- scenarios/basic/
+- tech/basic/polymers.csv
+
+These files contain the parameter values used in the published model runs.
+
 ----
 
 # CaCoCa
