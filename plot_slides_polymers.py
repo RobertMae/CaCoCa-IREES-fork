@@ -256,7 +256,7 @@ for scen_name, uct_prms in sens_scenarios.items():
     config_sens['uncertain_parameters'] = [uct_prm_definitions[up] for up in uct_prms]
 
     setup, cost_and_em_sens = run(config=config_sens)
-    cost_and_em_sens.to_csv(f"results_sensitivity_{scen_name}.csv", index=False)
+    #cost_and_em_sens.to_csv(f"results_sensitivity_{scen_name}.csv", index=False)
 
     #for h2name, project_name in project_names_dict.items():
         #plot_project_cost_time_curves(cost_and_em_sens,
