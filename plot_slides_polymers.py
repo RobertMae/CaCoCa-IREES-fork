@@ -4,7 +4,7 @@ from cacoca.output.plot_tools import change_output_subdir_by_filename
 
 setup, cost_and_em_actual = run(config_filepath='config/config_slides_polymers.yml')
 change_output_subdir_by_filename(setup.config, __file__)
-
+cost_and_em_actual.to_csv("results_baseline.csv", index=False)
 
 # %% SECTOR COMPARISON  ============================================================================
 
@@ -29,13 +29,13 @@ if 'cost_and_em_actual' not in globals():
 project_names = [
 #'Zement f)',
     #'Zement f)',
-    #'E-Steamcracker Naphtha',
+    'E-Steamcracker Naphtha',
     'Pyrolyse',
-    #'Pyrolyse E-Steamcracker',
-    #'Hydrocracking',
-    #'Hydrocracking E-Steamcracker',
-    #'Gasifizierung-FT',
-    #'Gasifizierung-FT E-Steamcracker'
+    'Pyrolyse E-Steamcracker',
+    'Hydrocracking',
+    'Hydrocracking E-Steamcracker',
+    'Gasifizierung-FT',
+    'Gasifizierung-FT E-Steamcracker'
     'Mechanisches Recycling',
     'Methanolroute',
     'Fischer-Tropsch',
@@ -63,6 +63,7 @@ if 'config' not in globals():
 config_all = copy.deepcopy(config)
 config_all['projects_file'] = 'config/projects.csv'
 setup_all, cost_and_em_all = run(config=config_all)
+cost_and_em_all.to_csv("results_all_projects.csv", index=False)
 
 #plot_project_cost_time_curves(cost_and_em_all, config=setup_all.config, print_name='all_projects',
 #                              color_by='Industry')
@@ -82,13 +83,13 @@ if 'cost_and_em_actual' not in globals():
 project_names = [
 #'Zement f)',
     #'Zement f)',
-    #'E-Steamcracker Naphtha',
+    'E-Steamcracker Naphtha',
     'Pyrolyse',
-    #'Pyrolyse E-Steamcracker',
-    #'Hydrocracking',
-    #'Hydrocracking E-Steamcracker',
-    #'Gasifizierung-FT',
-    #'Gasifizierung-FT E-Steamcracker'
+    'Pyrolyse E-Steamcracker',
+    'Hydrocracking',
+    'Hydrocracking E-Steamcracker',
+    'Gasifizierung-FT',
+    'Gasifizierung-FT E-Steamcracker',
     'Mechanisches Recycling',
     'Methanolroute',
     'Fischer-Tropsch',
@@ -134,13 +135,13 @@ if 'setup' not in globals():
 project_names = [
 #'Zement f)',
     #'Zement f)',
-    #'E-Steamcracker Naphtha',
+    'E-Steamcracker Naphtha',
     'Pyrolyse',
-    #'Pyrolyse E-Steamcracker',
-    #'Hydrocracking',
-    #'Hydrocracking E-Steamcracker',
-    #'Gasifizierung-FT',
-    #'Gasifizierung-FT E-Steamcracker'
+    'Pyrolyse E-Steamcracker',
+    'Hydrocracking',
+    'Hydrocracking E-Steamcracker',
+    'Gasifizierung-FT',
+    'Gasifizierung-FT E-Steamcracker',
     'Mechanisches Recycling',
     'Methanolroute',
     'Fischer-Tropsch',
@@ -255,6 +256,7 @@ for scen_name, uct_prms in sens_scenarios.items():
     config_sens['uncertain_parameters'] = [uct_prm_definitions[up] for up in uct_prms]
 
     setup, cost_and_em_sens = run(config=config_sens)
+    cost_and_em_sens.to_csv(f"results_sensitivity_{scen_name}.csv", index=False)
 
     #for h2name, project_name in project_names_dict.items():
         #plot_project_cost_time_curves(cost_and_em_sens,

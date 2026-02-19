@@ -53,7 +53,7 @@ def plot_stacked_bars_multi(projects: pd.DataFrame, config: dict, project_names:
         If True, handle emission costs as differences only
     """
     if cost_per == 'product':
-        yunit = '€/t Produkt'
+        yunit = '€/t product'
         co2pricename = 'CO2 Cost'
     elif cost_per == 'em_savings':
         yunit = '€/t CO2'
@@ -68,7 +68,7 @@ def plot_stacked_bars_multi(projects: pd.DataFrame, config: dict, project_names:
         
     projects = projects[projects['Project name'].isin(all_projects)].copy()
     
-    years = [2025, 2030, 2035, 2040, 2045]
+    years = [2025, 2035, 2045]
     years = np.intersect1d(years, projects['Period'].values)
     query_str = " | ".join(f"Period == {y}" for y in years)
     projects = projects.query(query_str).drop_duplicates()
@@ -86,7 +86,7 @@ def plot_stacked_bars_multi(projects: pd.DataFrame, config: dict, project_names:
         })
 
         # override display name for CO2 Cost
-        dn_map = {'CO2 Cost': 'CO₂-Kosten'}
+        dn_map = {'CO2 Cost': 'CO₂ cost'}
         def dn_override(vn):
             return dn_map.get(vn, dn(vn))
 
@@ -150,7 +150,7 @@ def plot_stacked_bars_multi(projects: pd.DataFrame, config: dict, project_names:
                     self.base = yzero() if base is None else base
             
             # Create reference bar
-            ref = Bar(name='Referenz',
+            ref = Bar(name='Steamcracker naphtha',  # Hardcoded for now - can be made more generic if needed
                       projects=ref_projects,
                       linecolor='rgb(0., 0., 0.)')
                       
@@ -176,14 +176,14 @@ def plot_stacked_bars_multi(projects: pd.DataFrame, config: dict, project_names:
                 legend_vars.add(vn)
                 ref.base += ref.dir * ref.projects[vn]
 
-            if ref.linecolor:
-                fig.add_scatter(
-                    x=[ref.projects['Period'].to_list(), [ref.name for _ in years]],
-                    y=ref.base,
-                    mode='lines',
-                    line=dict(color=ref.linecolor, width=2, dash='solid'),
-                    showlegend=False,
-                )
+            #if ref.linecolor:
+                #fig.add_scatter(
+                    #x=[ref.projects['Period'].to_list(), [ref.name for _ in years]],
+                    #y=ref.base,
+                    #mode='lines',
+                    #line=dict(color=ref.linecolor, width=2, dash='solid'),
+                    #showlegend=False,
+                #)
                 
             offsetgroup += 1
     
@@ -264,14 +264,14 @@ def plot_stacked_bars_multi(projects: pd.DataFrame, config: dict, project_names:
                 legend_vars.add(vn)
                 bar.base += bar.dir * bar.projects[vn]
 
-            if bar.linecolor:
-                fig.add_scatter(
-                    x=[bar.projects['Period'].to_list(), [bar.name for _ in years]],
-                    y=bar.base,
-                    mode='lines',
-                    line=dict(color=bar.linecolor, width=2, dash='solid'),
-                    showlegend=False,
-                )
+            #if bar.linecolor:
+                #fig.add_scatter(
+                    #x=[bar.projects['Period'].to_list(), [bar.name for _ in years]],
+                    #y=bar.base,
+                    #mode='lines',
+                    #line=dict(color=bar.linecolor, width=2, dash='solid'),
+                    #showlegend=False,
+                #)
         
         offsetgroup += 1
 
@@ -291,6 +291,30 @@ def plot_stacked_bars_multi(projects: pd.DataFrame, config: dict, project_names:
     filename = f'stacked_bars_multi_{len(project_names)}_projects'
     if project_ref is not None:
         filename += f'_ref_{project_ref}'
+        fig.update_layout(
+    font=dict(size=22),          # global: ticks + legend + title (Grundschrift)
+    legend=dict(font=dict(size=20)),
+    xaxis=dict(tickfont=dict(size=22)),
+    yaxis=dict(tickfont=dict(size=22), title_font=dict(size=24)),
+    title=dict(font=dict(size=24)),
+)
+        fig.update_xaxes(
+    tickangle=-90   # statt -90
+)
+    fig.update_layout(
+    paper_bgcolor="white",   # kompletter Außenbereich
+    plot_bgcolor="white"     # Bereich hinter den Balken
+)
+
+    fig.update_xaxes(
+    showgrid=False
+)
+
+    fig.update_yaxes(
+    showgrid=True,
+    gridcolor="#555555",     # dunkelgrau
+    gridwidth=1
+)
     show_and_save(fig, config, filename)
 
 
@@ -298,7 +322,7 @@ def plot_stacked_bars(projects: pd.DataFrame, config: dict, project_name: str,
                       cost_per: str = 'product', is_diff: bool = False, emission_diff: bool = True):
 
     if cost_per == 'product':
-        yunit = '€/t Produkt'
+        yunit = '€/t product'
         co2pricename = 'CO2 Cost'
     elif cost_per == 'em_savings':
         yunit = '€/t CO2'
@@ -308,7 +332,7 @@ def plot_stacked_bars(projects: pd.DataFrame, config: dict, project_name: str,
 
     projects = projects.query(f"`Project name` == '{project_name}'")
 
-    years = [2025, 2030, 2035, 2040, 2045]
+    years = [2025, 2035, 2045]
     years = np.intersect1d(years, projects['Period'].values)
     query_str = " | ".join(f"Period == {y}" for y in years)
     projects = projects.query(query_str).drop_duplicates()
@@ -431,14 +455,14 @@ def plot_stacked_bars(projects: pd.DataFrame, config: dict, project_name: str,
             legend_vars.add(vn)
             bar.base += bar.dir * bar.projects[vn]
 
-        if bar.linecolor:
-            fig.add_scatter(
-                x=[bar.projects['Period'].to_list(), [bar.name for _ in years]],
-                y=bar.base,
-                mode='lines',
-                line=dict(color=bar.linecolor, width=2, dash='solid'),
-                showlegend=False,
-            )
+        #if bar.linecolor:
+            #fig.add_scatter(
+                #x=[bar.projects['Period'].to_list(), [bar.name for _ in years]],
+                #y=bar.base,
+                #mode='lines',
+                #line=dict(color=bar.linecolor, width=2, dash='solid'),
+                #showlegend=False,
+            #)
 
     add_placeholder(1)
 
@@ -446,4 +470,28 @@ def plot_stacked_bars(projects: pd.DataFrame, config: dict, project_name: str,
     fig.update_layout(legend_traceorder="reversed",
                       title=f"Kostenvergleich {dn(project_name)}")
     fig.update_layout(barmode="relative")
+    fig.update_layout(
+    font=dict(size=22),          # global: ticks + legend + title (Grundschrift)
+    legend=dict(font=dict(size=20)),
+    xaxis=dict(tickfont=dict(size=22)),
+    yaxis=dict(tickfont=dict(size=22), title_font=dict(size=24)),
+    title=dict(font=dict(size=24)),
+)
+    fig.update_xaxes(
+    tickangle=-90   # statt -90
+)
+    fig.update_layout(
+    paper_bgcolor="white",   # kompletter Außenbereich
+    plot_bgcolor="white"     # Bereich hinter den Balken
+)
+
+    fig.update_xaxes(
+    showgrid=False
+)
+
+    fig.update_yaxes(
+    showgrid=True,
+    gridcolor="#555555",     # dunkelgrau
+    gridwidth=1
+)
     show_and_save(fig, config, 'stacked_bars_' + project_name)
