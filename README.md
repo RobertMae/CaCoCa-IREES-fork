@@ -1,3 +1,29 @@
+# CaCoCa-IREES fork
+
+This repository contains a project-specific modification of the CaCoCa (Carbon Contracts Calculator) model used in:
+
+Maertens, R. (2026): Techno-economic assessment of green primary and secondary plastics production pathways.
+
+The original CaCoCa model was developed by Dürrwächter et al. (2023). This fork extends the model for techno-economic assessment of polypropylene production pathways under different energy and carbon price scenarios.
+
+## Reproducibility
+
+The scripts required to reproduce the results of the associated publication are included in this repository.
+
+To reproduce the main results:
+
+1. Install dependencies via Poetry (`poetry install`)
+2. Run the project-specific script:
+
+   poetry run python plot_slides_polymers.py
+
+
+## Data sources
+
+All techno-economic input data used in the publication are derived from literature sources cited in the manuscript. The example data included in the original CaCoCa repository are not used for the published results.
+
+----
+
 # CaCoCa
 
 CaCoCa (The Carbon Contracts Calculator) is a tool to model carbon contracts for difference (CCfDs) for industrial decarbonization projects. Abatement cost time curves can be calculated, and auctions of such carbon contracts (where the projects bidding the lowest carbon price are awarded contracts) can be modeled.
@@ -30,6 +56,10 @@ Philipp Verpoort\
 Paul Effing\
 Johannes Eckstein\
 Falko Ueckerdt
+
+## Fork maintainer
+
+Robert Maertens (IREES)
 
 ## License
 
