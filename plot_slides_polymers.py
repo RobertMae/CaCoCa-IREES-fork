@@ -35,7 +35,7 @@ project_names = [
     'Hydrocracking',
     'Hydrocracking E-Steamcracker',
     'Gasifizierung-FT',
-    'Gasifizierung-FT E-Steamcracker'
+    'Gasifizierung-FT E-Steamcracker',
     'Mechanisches Recycling',
     'Methanolroute',
     'Fischer-Tropsch',
@@ -61,7 +61,7 @@ if 'config' not in globals():
     change_output_subdir_by_filename(config, __file__)
 
 config_all = copy.deepcopy(config)
-config_all['projects_file'] = 'config/projects.csv'
+config_all['projects_file'] = 'config/projects_polymers.csv'
 setup_all, cost_and_em_all = run(config=config_all)
 cost_and_em_all.to_csv("results_all_projects.csv", index=False)
 

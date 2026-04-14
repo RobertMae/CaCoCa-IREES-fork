@@ -22,11 +22,26 @@ colors = {
     'Electricity': pl.colors.qualitative.Dark24[2],
     'Effective CO2 Price': 'rgb(0.2, 0.2, 0.2)',
     'CO2 Cost': 'rgb(0.2, 0.2, 0.2)',
-    'CO2 EoL': pl.colors.qualitative.Dark24[22],
+    'CO2 EoL': 'rgba(100,150,150,0.6)',
     'Biomass': pl.colors.qualitative.Dark24[18],
     'Bioethanol': pl.colors.qualitative.Dark24[19],
     'Biobutene': pl.colors.qualitative.Dark24[20]
 }
+
+def get_marker(vn, color):
+    if vn in ["EoL CO2", "CO2 EoL"]:
+        return dict(
+            color=color,
+            pattern=dict(
+                shape="/",
+                fgcolor="rgba(80,80,80,0.8)",
+                bgcolor=color,
+                size=8,
+                solidity=0.2,
+                fillmode="overlay"
+            )
+        )
+    return dict(color=color)
 
 def plot_stacked_bars_multi(projects: pd.DataFrame, config: dict, project_names: list[str],
                       project_ref: str = None, cost_per: str = 'product', is_diff: bool = False, 
@@ -168,7 +183,7 @@ def plot_stacked_bars_multi(projects: pd.DataFrame, config: dict, project_names:
                     x=[ref.projects['Period'].to_list(), [ref.name for _ in years]],
                     y=ref.dir * ref.projects[vn],
                     base=ref.base,
-                    marker_color=color,
+                    marker=get_marker(vn, color),
                     width=width,
                     offsetgroup=offsetgroup,
                     showlegend=vn not in legend_vars
@@ -251,12 +266,13 @@ def plot_stacked_bars_multi(projects: pd.DataFrame, config: dict, project_names:
                 # For multi-project, we'll add the project name to the bar name for clarity
                 display_name = f"{dn_override(vn)} ({bar.name})" if vn in legend_vars else dn_override(vn)
                 
+                marker = get_marker(vn, color)
                 fig.add_bar(
                     name=display_name,
                     x=[bar.projects['Period'].to_list(), [bar.name for _ in years]],
                     y=bar.dir * bar.projects[vn],
                     base=bar.base,
-                    marker_color=color,
+                    marker=marker,
                     width=width,
                     offsetgroup=offsetgroup,
                     showlegend=vn not in legend_vars
@@ -448,7 +464,7 @@ def plot_stacked_bars(projects: pd.DataFrame, config: dict, project_name: str,
                 x=[bar.projects['Period'].to_list(), [bar.name for _ in years]],
                 y=bar.dir * bar.projects[vn],
                 base=bar.base,
-                marker_color=color,
+                marker=get_marker(vn, color),
                 width=width,
                 showlegend=vn not in legend_vars
             )

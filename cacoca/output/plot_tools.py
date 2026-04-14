@@ -33,16 +33,46 @@ def set_yrange_min_zero(fig: pl.graph_objs.Figure):
 
 
 def show_and_save(fig: pl.graph_objs.Figure, config: dict, base_name: str = None):
-    if config['show_figures']:
-        if config['show_figs_in_browser']:
+    """
+    Show figure and export it for publication-ready usage.
+
+    Exports:
+      - .html (optional, if show_figures and show_figs_in_browser)
+      - .svg (vector; best for Word -> PDF)
+      - .png (high-res raster fallback)
+    """
+
+    # --- Show (optional) ---
+    if config.get('show_figures', False):
+        if config.get('show_figs_in_browser', False):
             pl.io.renderers.default = "browser"
         fig.show()
-    if base_name and config['save_figures']:
-        dir_path = config['output_dir']
-        if config['crop_figures']:
-            fig.update_layout(margin=dict(l=10, r=10, t=10, b=10), title='')
-        fig.update_layout(width=1000, height=600, font=dict(size=18))
-        fig.write_image(os.path.join(dir_path, base_name + '.png'))
+
+    # --- Save (optional) ---
+    if not (base_name and config.get('save_figures', False)):
+        return
+
+    dir_path = config['output_dir']
+    os.makedirs(dir_path, exist_ok=True)
+
+    # Optional cropping
+    if config.get('crop_figures', False):
+        fig.update_layout(margin=dict(l=10, r=10, t=10, b=10), title='')
+
+    # Keep styling; avoid forcing small canvas size for export quality.
+    # (Export resolution is controlled via scale/width/height in write_image.)
+    fig.update_layout(font=dict(size=18))
+
+    stem = os.path.join(dir_path, base_name)
+
+    # --- Vector export: best quality in Word/PDF ---
+    # Requires: pip install -U kaleido
+    fig.write_image(stem + '.svg', format='svg')
+
+    # --- High-res PNG fallback ---
+    # scale=4 produces 4x pixel density relative to the layout size.
+    fig.write_image(stem + '.png', format='png', scale=4)
+
 
 
 display_names = {
