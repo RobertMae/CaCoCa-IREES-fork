@@ -1,48 +1,4 @@
 ﻿Technology,Reference Technology
-Agora-BF-BOF,Agora-BF-BOF
-Agora_DRI-NG,Agora-BF-BOF
-Agora_DRI-H2,Agora-BF-BOF
-Agora-Drehrohrofen,Agora-Drehrohrofen
-Agora-Oxyfuel-Drehrohrofen ,Agora-Drehrohrofen
-Agora-El.LEILAC-Drehrohrofen,Agora-Drehrohrofen
-Agora-Dampfkessel,Agora-Dampfkessel
-Agora-Elektrodenkessel,Agora-Dampfkessel
-Agora-Hochtemperatur WP,Agora-Dampfkessel
-Agora-Höchsttemperatur WP,Agora-Dampfkessel
-Agora_BF_Original,Agora_BF_Original
-Agora_BF_10%_Scrap,Agora_BF_10%_Scrap
-Agora_BF_0%_Scrap,Agora_BF_0%_Scrap
-Agora_DRI-Original-NG,Agora_BF_Original
-Agora_DRI-10%_Scrap-NG,Agora_BF_10%_Scrap
-Agora_DRI-0%_Scrap-NG,Agora_BF_0%_Scrap
-Agora_DRI-Original-H2,Agora_BF_Original
-Agora_DRI-10%_Scrap-H2,Agora_BF_10%_Scrap
-Agora_DRI-0%_Scrap-H2,Agora_BF_0%_Scrap
-Agora_DRI-Original,Agora_BF_Original
-Agora_DRI-10%_Scrap,Agora_BF_10%_Scrap
-Agora_DRI-0%_Scrap,Agora_BF_0%_Scrap
-Agora_BF_10%_Scrap+5%E,Agora_BF_10%_Scrap
-Agora_DRI-10%_Scrap+5%E-NG,Agora_BF_10%_Scrap
-Agora_DRI-10%_Scrap+5%E-H2,Agora_BF_10%_Scrap
-Agora_DRI-10%_Scrap+5%E,Agora_BF_10%_Scrap
-Agora_BF_10%_Scrap-5%E,Agora_BF_10%_Scrap
-Agora_DRI-10%_Scrap-5%E-NG,Agora_BF_10%_Scrap
-Agora_DRI-10%_Scrap-5%E-H2,Agora_BF_10%_Scrap
-Agora_DRI-10%_Scrap-5%E,Agora_BF_10%_Scrap
-Agora-Drehrohrofen+5%E,Agora-Drehrohrofen
-Agora-Oxyfuel-Drehrohrofen+5%E,Agora-Drehrohrofen
-Agora-El.LEILAC-Drehrohrofen+5%E,Agora-Drehrohrofen
-Agora-Dampfkessel+5%E,Agora-Dampfkessel
-Agora-Elektrodenkessel+5%E,Agora-Dampfkessel
-Agora-Hochtemperatur WP+5%E,Agora-Dampfkessel
-Agora-Höchsttemperatur WP+5%E,Agora-Dampfkessel
-Agora-Dampfkessel-5%E,Agora-Dampfkessel
-Agora-Elektrodenkessel-5%E,Agora-Dampfkessel
-Agora-Hochtemperatur WP-5%E,Agora-Dampfkessel
-Agora-Höchsttemperatur WP-5%E,Agora-Dampfkessel
-Agora-Drehrohrofen-5%E,Agora-Drehrohrofen
-Agora-Oxyfuel-Drehrohrofen-5%E,Agora-Drehrohrofen
-Agora-El.LEILAC-Drehrohrofen-5%E,Agora-Drehrohrofen
 Pyrolyse_Steamcracker_Recycling,Steamcracker_Naphtha
 Hydrocracking_Steamcracker_Recycling,Steamcracker_Naphtha
 Gasifizierung_FT_Steamcracker_Recycling,Steamcracker_Naphtha
