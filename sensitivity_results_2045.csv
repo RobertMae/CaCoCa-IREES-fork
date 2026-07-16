@@ -1,0 +1,15 @@
+No.,Model project name,Pathway,Electricity exact (€/t PP),Electricity rounded (€/t PP),Natural gas exact (€/t PP),Natural gas rounded (€/t PP),Hydrogen exact (€/t PP),Hydrogen rounded (€/t PP),CO2 emissions basis (t CO2/t PP),CO2 includes hypothetical EoL,CO2 exact low-high range (€/t PP),CO2 rounded low-high range (€/t PP),PCW exact (€/t PP),PCW rounded (€/t PP),Biogenic feedstock(s),Dry biomass exact (€/t PP),Bioethanol exact (€/t PP),Biobutene exact (€/t PP)
+1,Steamcracker Naphtha,"Fossil naphtha, conventional",14.2392,14,50.20140000000001,50.0,0.0,,4.71,True,1413.0,1413,0.0,,–,0.0,0.0,0.0
+2,E-Steamcracker Naphtha,"Fossil naphtha, electric",144.0672,144,0.0,,0.0,,3.3400000000000003,True,1002.0,1002,0.0,,–,0.0,0.0,0.0
+3,Pyrolyse,"Pyrolysis, conventional",31.017724,31,62.72476,63.0,19.1839671028656,19.0,2.908,False,872.4,872,90.05000000000001,90.0,–,0.0,0.0,0.0
+4,Pyrolyse E-Steamcracker,"Pyrolysis, electric",193.2572144,193,0.0,,19.1839671028656,19.0,1.19482,False,358.446,358,90.0,90.0,–,0.0,0.0,0.0
+5,Hydrocracking,"Hydrocracking, conventional",27.0824,27,50.20140000000001,50.0,60.041965685072,60.0,2.36,False,708.0,708,56.5,56.0,–,0.0,0.0,0.0
+6,Hydrocracking E-Steamcracker,"Hydrocracking, electric",156.6312,157,0.0,,60.041965685072,60.0,0.99,False,297.0,297,56.5,56.0,–,0.0,0.0,0.0
+7,Gasifizierung-FT,"Gasification–FT, conventional",18.9856,19,50.20140000000001,50.0,0.0,,3.58,False,1074.0,1074,84.0,84.0,–,0.0,0.0,0.0
+8,Gasifizierung-FT E-Steamcracker,"Gasification–FT, electric",148.8136,149,0.0,,0.0,,2.21,False,663.0,663,84.0,84.0,–,0.0,0.0,0.0
+9,Mechanisches Recycling,Mechanical recycling,16.165680000000002,16,0.0,,0.0,,0.471,False,141.29999999999998,141,59.0,59.0,–,0.0,0.0,0.0
+10,Methanolroute,CO₂/H₂ methanol route,316.892,317,0.0,,879.5801884086561,880.0,0.31913,False,95.739,96,0.0,,–,0.0,0.0,0.0
+11,Fischer-Tropsch,CO₂/H₂ FT route,242.0136312,242,0.0,,832.0861593890721,832.0,0.21594,False,64.782,65,0.0,,–,0.0,0.0,0.0
+12,Biomethanol,Biomethanol route,220.8472,221,0.0,,0.0,,0.2,False,60.0,60,0.0,,Dry biomass: 177,176.51904000000005,0.0,0.0
+13,Biomasse-DME-MTO,Biomass-DME route,27.0824,27,0.0,,0.0,,0.2,False,60.0,60,0.0,,Dry biomass: 180,179.7088,0.0,0.0
+14,Bioethanol,Bioethanol/biobutene route,12.558416,13,0.0,,0.0,,0.2,False,60.0,60,0.0,,Bioethanol: 224; biobutene: 406,0.0,223.6,406.2000000000001

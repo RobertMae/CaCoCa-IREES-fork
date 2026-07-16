@@ -5,54 +5,54 @@ Steamcracker_Naphtha,,Energy demand,Electricity,,,2022,,0.51,,MWh/t_product,,,,F
 Steamcracker_Naphtha,,Feedstock demand,Naphta,,,2022,,1.015,,t/t_product,,,,FutureCamp and Dechema (2019); author assumption for polymerisation yield
 Steamcracker_Naphtha,,Emissions,CO2,,,2022,,1.57,,t/t_product,,,,Alsabri et al. (2021); author aggregation
 Steamcracker_Naphtha,,Feedstock demand,CO2 EoL,,,2022,,3.14,,t/t_product,,,,Guidehouse et al. (2024)
-Steamcracker_Naphtha,,OPEX,Additional OPEX,,,2022,,64.31,,€/t_product,,,2.5% CAPEX,Author assumptions based on CAPEX; see manuscript Methods
+Steamcracker_Naphtha,,OPEX,Additional OPEX,,,2022,,67.77,,€/t_product,,,2.5% CAPEX,"Author assumptions based on CAPEX; see manuscript Methods; Includes polymerisation OPEX of €5.00/t PP, equal to 2.5% of €200/t annual PP capacity"
 eSteamcracker_Naphtha,,High CAPEX,CAPEX,,,2022,,2710.79,,€/t annual production capacity,,,,FutureCamp and Dechema (2019); Rueda-Durán et al. (2018); greenfield author assumption: same cracker CAPEX as conventional route
 eSteamcracker_Naphtha,,Energy demand,Natural Gas,,,2022,,0,,MWh/t_product,,,,Author calculation: fossil process heat replaced by electricity
 eSteamcracker_Naphtha,,Energy demand,Electricity,,,2022,,5.16,,MWh/t_product,,,,FutureCamp and Dechema (2019); Volk et al. (2021); author calculation for electric heat substitution
 eSteamcracker_Naphtha,,Feedstock demand,Naphta,,,2022,,1.015,,t/t_product,,,,FutureCamp and Dechema (2019); author assumption for polymerisation yield
 eSteamcracker_Naphtha,,Emissions,CO2,,,2022,,0.2,,t/t_product,,,,Alsabri et al. (2021); author calculation for electric heat substitution
 eSteamcracker_Naphtha,,Feedstock demand,CO2 EoL,,,2022,,3.14,,t/t_product,,,,Guidehouse et al. (2024)
-eSteamcracker_Naphtha,,OPEX,Additional OPEX,,,2022,,64.31,,€/t_product,,,2.5% CAPEX,Author assumptions based on CAPEX; see manuscript Methods
+eSteamcracker_Naphtha,,OPEX,Additional OPEX,,,2022,,67.77,,€/t_product,,,2.5% CAPEX,"Author assumptions based on CAPEX; see manuscript Methods; Includes polymerisation OPEX of €5.00/t PP, equal to 2.5% of €200/t annual PP capacity"
 Pyrolyse_Steamcracker_Recycling,,High CAPEX,CAPEX,,,2022,,4011.55,,€/t annual production capacity,,,,Agora Energiewende and Wuppertal Institut (2019); Letoffet et al. (2024); Sphera (2022); FutureCamp and Dechema (2019); Rueda-Durán et al. (2018); author assumptions
 Pyrolyse_Steamcracker_Recycling,,Energy demand,Natural Gas,,,2022,,5.81,,MWh/t_product,,,,FutureCamp and Dechema (2019); author conversion and aggregation
-Pyrolyse_Steamcracker_Recycling,,Energy demand,Electricity,,,2022,,1.17796,,MWh/t_product,,,,Ausfelder et al. (2026); Letoffet et al. (2024); FutureCamp and Dechema (2019); Volk et al. (2021); author aggregation
+Pyrolyse_Steamcracker_Recycling,,Energy demand,Electricity,,,2022,,1.11095,,MWh/t_product,,,,"Aggregated using 0.098 MWh/t pyrolysis oil for upgrading, consistent with Letoffet et al. (2024)"
 Pyrolyse_Steamcracker_Recycling,,Feedstock demand,PCW,,,2022,,1.801,,t/t_product,,,,Biessey et al. (2023); Stallkamp (2023); Stallkamp et al. (2024); Möck et al. (2022); author yield assumptions
-Pyrolyse_Steamcracker_Recycling,,Feedstock demand,Hydrogen,,,2022,,10.089,,kg/t_product,,,,Dechema et al. (2021); Sphera (2022); author aggregation
+Pyrolyse_Steamcracker_Recycling,,Feedstock demand,Hydrogen,,,2022,,10.809,,kg/t_product,,,,10 kg H2/t pyrolysis oil aggregated to the PP functional unit; harmonised across both cracker variants
 Pyrolyse_Steamcracker_Recycling,,Emissions,CO2,,,2022,,2.908,,t/t_product,,,,Volk et al. (2021); Letoffet et al. (2024); Alsabri et al. (2021); author aggregation
-Pyrolyse_Steamcracker_Recycling,,OPEX,Additional OPEX,,,2022,,174.39,,€/t_product,,,,Agora Energiewende and Wuppertal Institut (2019); author assumptions based on CAPEX
+Pyrolyse_Steamcracker_Recycling,,OPEX,Additional OPEX,,,2022,,177.85,,€/t_product,,,,"Agora Energiewende and Wuppertal Institut (2019); author assumptions based on CAPEX; Includes polymerisation OPEX of €5.00/t PP, equal to 2.5% of €200/t annual PP capacity"
 Pyrolyse_eSteamcracker_Recycling,,High CAPEX,CAPEX,,,2022,,4011.55,,€/t annual production capacity,,,,Agora Energiewende and Wuppertal Institut (2019); Letoffet et al. (2024); Sphera (2022); FutureCamp and Dechema (2019); Rueda-Durán et al. (2018); greenfield electric-cracker author assumption
 Pyrolyse_eSteamcracker_Recycling,,Energy demand,Natural Gas,,,2022,,0,,MWh/t_product,,,,Author calculation: fossil process heat replaced by electricity
-Pyrolyse_eSteamcracker_Recycling,,Energy demand,Electricity,,,2022,,6.92,,MWh/t_product,,,,Ausfelder et al. (2026); Letoffet et al. (2024); FutureCamp and Dechema (2019); Volk et al. (2021); author calculation for electric heat substitution
+Pyrolyse_eSteamcracker_Recycling,,Energy demand,Electricity,,,2022,,6.92182,,MWh/t_product,,,,"Aggregated using 0.098 MWh/t pyrolysis oil for upgrading, consistent with Letoffet et al. (2024)"
 Pyrolyse_eSteamcracker_Recycling,,Feedstock demand,PCW,,,2022,,1.80,,t/t_product,,,,Biessey et al. (2023); Stallkamp (2023); Stallkamp et al. (2024); Möck et al. (2022); author yield assumptions
 Pyrolyse_eSteamcracker_Recycling,,Feedstock demand,Hydrogen,,,2022,,10.809,,kg/t_product,,,,Dechema et al. (2021); Sphera (2022); author aggregation
 Pyrolyse_eSteamcracker_Recycling,,Emissions,CO2,,,2022,,1.19482,,t/t_product,,,,Volk et al. (2021); Letoffet et al. (2024); Alsabri et al. (2021); author calculation for electric heat substitution
-Pyrolyse_eSteamcracker_Recycling,,OPEX,Additional OPEX,,,2022,,174.39,,€/t_product,,,,Agora Energiewende and Wuppertal Institut (2019); author assumptions based on CAPEX
+Pyrolyse_eSteamcracker_Recycling,,OPEX,Additional OPEX,,,2022,,177.85,,€/t_product,,,,"Agora Energiewende and Wuppertal Institut (2019); author assumptions based on CAPEX; Includes polymerisation OPEX of €5.00/t PP, equal to 2.5% of €200/t annual PP capacity"
 Hydrocracking_Steamcracker_Recycling,,High CAPEX,CAPEX,,,2022,,5530.23,,€/t annual production capacity,,,,Dechema et al. (2021); Olafasakin et al. (2023); FutureCamp and Dechema (2019); Rueda-Durán et al. (2018); author aggregation
 Hydrocracking_Steamcracker_Recycling,,Energy demand,Natural Gas,,,2022,,4.65,,MWh/t_product,,,,FutureCamp and Dechema (2019); author aggregation
 Hydrocracking_Steamcracker_Recycling,,Energy demand,Electricity,,,2022,,0.97,,MWh/t_product,,,,Dechema et al. (2021); Olafasakin et al. (2023); FutureCamp and Dechema (2019); Volk et al. (2021); author aggregation
 Hydrocracking_Steamcracker_Recycling,,Feedstock demand,PCW,,,2022,,1.13,,t/t_product,,,,Dechema et al. (2021); Olafasakin et al. (2023); author aggregation
 Hydrocracking_Steamcracker_Recycling,,Feedstock demand,Hydrogen,,,2022,,33.83,,kg/t_product,,,,Dechema et al. (2021); Olafasakin et al. (2023); author aggregation
 Hydrocracking_Steamcracker_Recycling,,Emissions,CO2,,,2022,,2.36,,t/t_product,,,,Dechema et al. (2021); Olafasakin et al. (2023); Alsabri et al. (2021); author aggregation
-Hydrocracking_Steamcracker_Recycling,,OPEX,Additional OPEX,,,2022,,205.28,,€/t_product,,,,Dechema et al. (2021); Olafasakin et al. (2023); author assumptions based on CAPEX
+Hydrocracking_Steamcracker_Recycling,,OPEX,Additional OPEX,,,2022,,208.74,,€/t_product,,,,"Dechema et al. (2021); Olafasakin et al. (2023); author assumptions based on CAPEX; Includes polymerisation OPEX of €5.00/t PP, equal to 2.5% of €200/t annual PP capacity"
 Hydrocracking_eSteamcracker_Recycling,,High CAPEX,CAPEX,,,2022,,5530.23,,€/t annual production capacity,,,,Dechema et al. (2021); Olafasakin et al. (2023); FutureCamp and Dechema (2019); Rueda-Durán et al. (2018); author aggregation; greenfield electric-cracker author assumption
 Hydrocracking_eSteamcracker_Recycling,,Energy demand,Natural Gas,,,2022,,0,,MWh/t_product,,,,Author calculation: fossil process heat replaced by electricity
 Hydrocracking_eSteamcracker_Recycling,,Energy demand,Electricity,,,2022,,5.61,,MWh/t_product,,,,Dechema et al. (2021); Olafasakin et al. (2023); FutureCamp and Dechema (2019); Volk et al. (2021); author calculation for electric heat substitution
 Hydrocracking_eSteamcracker_Recycling,,Feedstock demand,PCW,,,2022,,1.13,,t/t_product,,,,Dechema et al. (2021); Olafasakin et al. (2023); author aggregation
 Hydrocracking_eSteamcracker_Recycling,,Feedstock demand,Hydrogen,,,2022,,33.83,,kg/t_product,,,,Dechema et al. (2021); Olafasakin et al. (2023); author aggregation
 Hydrocracking_eSteamcracker_Recycling,,Emissions,CO2,,,2022,,0.99,,t/t_product,,,,Dechema et al. (2021); Olafasakin et al. (2023); Alsabri et al. (2021); author calculation for electric heat substitution
-Hydrocracking_eSteamcracker_Recycling,,OPEX,Additional OPEX,,,2022,,205.28,,€/t_product,,,,Dechema et al. (2021); Olafasakin et al. (2023); author assumptions based on CAPEX
+Hydrocracking_eSteamcracker_Recycling,,OPEX,Additional OPEX,,,2022,,208.74,,€/t_product,,,,"Dechema et al. (2021); Olafasakin et al. (2023); author assumptions based on CAPEX; Includes polymerisation OPEX of €5.00/t PP, equal to 2.5% of €200/t annual PP capacity"
 Gasifizierung_FT_Steamcracker_Recycling,,High CAPEX,CAPEX,,,2022,,6927.33,,€/t annual production capacity,,,,Ketting (2024); Lee et al. (2023); FutureCamp and Dechema (2019); Rueda-Durán et al. (2018); author aggregation
 Gasifizierung_FT_Steamcracker_Recycling,,Energy demand,Natural Gas,,,2022,,4.65,,MWh/t_product,,,,FutureCamp and Dechema (2019); author aggregation
 Gasifizierung_FT_Steamcracker_Recycling,,Energy demand,Electricity,,,2022,,0.68,,MWh/t_product,,,,Ketting (2024); Lee et al. (2023); FutureCamp and Dechema (2019); Volk et al. (2021); author aggregation
 Gasifizierung_FT_Steamcracker_Recycling,,Feedstock demand,PCW,,,2022,,1.68,,t/t_product,,,,Ketting (2024); Lee et al. (2023); author aggregation
 Gasifizierung_FT_Steamcracker_Recycling,,Emissions,CO2,,,2022,,3.58,,t/t_product,,,,Ketting (2024); Lee et al. (2023); Alsabri et al. (2021); author aggregation
-Gasifizierung_FT_Steamcracker_Recycling,,OPEX,Additional OPEX,,,2022,,414.07,,€/t_product,,,,Ketting (2024); Lee et al. (2023); author assumptions based on CAPEX
+Gasifizierung_FT_Steamcracker_Recycling,,OPEX,Additional OPEX,,,2022,,417.53,,€/t_product,,,,"Ketting (2024); Lee et al. (2023); author assumptions based on CAPEX; Includes polymerisation OPEX of €5.00/t PP, equal to 2.5% of €200/t annual PP capacity"
 Gasifizierung_FT_eSteamcracker_Recycling,,High CAPEX,CAPEX,,,2022,,6927.33,,€/t annual production capacity,,,,Ketting (2024); Lee et al. (2023); FutureCamp and Dechema (2019); Rueda-Durán et al. (2018); author aggregation; greenfield electric-cracker author assumption
 Gasifizierung_FT_eSteamcracker_Recycling,,Energy demand,Natural Gas,,,2022,,0,,MWh/t_product,,,,Author calculation: fossil process heat replaced by electricity
 Gasifizierung_FT_eSteamcracker_Recycling,,Energy demand,Electricity,,,2022,,5.33,,MWh/t_product,,,,Ketting (2024); Lee et al. (2023); FutureCamp and Dechema (2019); Volk et al. (2021); author calculation for electric heat substitution
 Gasifizierung_FT_eSteamcracker_Recycling,,Feedstock demand,PCW,,,2022,,1.68,,t/t_product,,,,Ketting (2024); Lee et al. (2023); author aggregation
 Gasifizierung_FT_eSteamcracker_Recycling,,Emissions,CO2,,,2022,,2.21,,t/t_product,,,,Ketting (2024); Lee et al. (2023); Alsabri et al. (2021); author calculation for electric heat substitution
-Gasifizierung_FT_eSteamcracker_Recycling,,OPEX,Additional OPEX,,,2022,,414.07,,€/t_product,,,,Ketting (2024); Lee et al. (2023); author assumptions based on CAPEX
+Gasifizierung_FT_eSteamcracker_Recycling,,OPEX,Additional OPEX,,,2022,,417.53,,€/t_product,,,,"Ketting (2024); Lee et al. (2023); author assumptions based on CAPEX; Includes polymerisation OPEX of €5.00/t PP, equal to 2.5% of €200/t annual PP capacity"
 Mechanisches_Recycling,,High CAPEX,CAPEX,,,2022,,111.76,,€/t annual production capacity,,,,Garcia-Gutierrez et al. (2023); Larrain et al. (2021); Nordahl et al. (2023); author aggregation
 Mechanisches_Recycling,,Energy demand,Natural Gas,,,2022,,0,,MWh/t_product,,,,Garcia-Gutierrez et al. (2023); Larrain et al. (2021); Nordahl et al. (2023); author aggregation
 Mechanisches_Recycling,,Energy demand,Electricity,,,2022,,0.579,,MWh/t_product,,,,Garcia-Gutierrez et al. (2023); Larrain et al. (2021); Nordahl et al. (2023); author aggregation
@@ -62,26 +62,26 @@ Mechanisches_Recycling,,OPEX,Additional OPEX,,,2022,,185.18,,€/t_product,,,,Ga
 Methanolroute,,High CAPEX,CAPEX,,,2022,,5627.57,,€/t annual production capacity,,,,Sollai et al. (2023); Markowitsch et al. (2023); Rueda-Durán et al. (2018); author aggregation
 Methanolroute,,Energy demand,Electricity,,,2022,,11.35,,MWh/t_product,,,,Sollai et al. (2023); Markowitsch et al. (2023); Volk et al. (2021); author aggregation
 Methanolroute,,Emissions,CO2,,,2022,,0.31913,,t/t_product,,,,Sollai et al. (2023); Markowitsch et al. (2023); Alsabri et al. (2021); author aggregation
-Methanolroute,,OPEX,Additional OPEX,,,2022,,137.12,,€/t_product,,,,Sollai et al. (2023); Markowitsch et al. (2023); author assumptions based on CAPEX
+Methanolroute,,OPEX,Additional OPEX,,,2022,,140.58,,€/t_product,,,,"Sollai et al. (2023); Markowitsch et al. (2023); author assumptions based on CAPEX; Includes polymerisation OPEX of €5.00/t PP, equal to 2.5% of €200/t annual PP capacity"
 Methanolroute,,Feedstock demand,Hydrogen,,,2022,,495.59,,kg/t_product,,,,Sollai et al. (2023); Markowitsch et al. (2023); author aggregation
 FT-Route,,High CAPEX,CAPEX,,,2022,,5080.04,,€/t annual production capacity,,,,Sollai et al. (2023); Markowitsch et al. (2023); FutureCamp and Dechema (2019); Rueda-Durán et al. (2018); author aggregation
 FT-Route,,Energy demand,Electricity,,,2022,,8.66811,,MWh/t_product,,,,Sollai et al. (2023); Markowitsch et al. (2023); FutureCamp and Dechema (2019); Volk et al. (2021); author calculation for electric steam cracking
 FT-Route,,Emissions,CO2,,,2022,,0.21594,,t/t_product,,,,Sollai et al. (2023); Markowitsch et al. (2023); Alsabri et al. (2021); author aggregation
-FT-Route,,OPEX,Additional OPEX,,,2022,,123.52,,€/t_product,,,,Sollai et al. (2023); Markowitsch et al. (2023); author assumptions based on CAPEX
+FT-Route,,OPEX,Additional OPEX,,,2022,,126.98,,€/t_product,,,,"Sollai et al. (2023); Markowitsch et al. (2023); author assumptions based on CAPEX; Includes polymerisation OPEX of €5.00/t PP, equal to 2.5% of €200/t annual PP capacity"
 FT-Route,,Feedstock demand,Hydrogen,,,2022,,468.83,,kg/t_product,,,,Sollai et al. (2023); Markowitsch et al. (2023); author aggregation
 Biomethanol,,High CAPEX,CAPEX,,,2022,,6077,,€/t annual production capacity,,,,Bazzanella and Ausfelder (2017); Markowitsch et al. (2023); Sollai et al. (2023); Rueda-Durán et al. (2018); author aggregation
 Biomethanol,,Energy demand,Electricity,,,2022,,7.91,,MWh/t_product,,,,Bazzanella and Ausfelder (2017); Markowitsch et al. (2023); Sollai et al. (2023); Volk et al. (2021); author aggregation
 Biomethanol,,Emissions,CO2,,,2022,,0.2,,t/t_product,,,,Bazzanella and Ausfelder (2017); Markowitsch et al. (2023); Sollai et al. (2023); Alsabri et al. (2021); author aggregation
-Biomethanol,,OPEX,Additional OPEX,,,2022,,148.43,,€/t_product,,,,Bazzanella and Ausfelder (2017); Markowitsch et al. (2023); Sollai et al. (2023); author assumptions based on CAPEX
+Biomethanol,,OPEX,Additional OPEX,,,2022,,151.89,,€/t_product,,,,"Bazzanella and Ausfelder (2017); Markowitsch et al. (2023); Sollai et al. (2023); author assumptions based on CAPEX; Includes polymerisation OPEX of €5.00/t PP, equal to 2.5% of €200/t annual PP capacity"
 Biomethanol,,Feedstock demand,Biomass,,,2022,,6.198,,t/t_product,,,,Bazzanella and Ausfelder (2017); Markowitsch et al. (2023); Sollai et al. (2023); author aggregation
 Biomasse-DME-MTO,,High CAPEX,CAPEX,,,2022,,3413.6,,€/t annual production capacity,,,,Haro et al. (2013); Rueda-Durán et al. (2018); author aggregation
 Biomasse-DME-MTO,,Energy demand,Electricity,,,2022,,0.97,,MWh/t_product,,,,Haro et al. (2013); Volk et al. (2021); author aggregation
 Biomasse-DME-MTO,,Emissions,CO2,,,2022,,0.2,,t/t_product,,,,Haro et al. (2013); Alsabri et al. (2021); author aggregation
-Biomasse-DME-MTO,,OPEX,Additional OPEX,,,2022,,81.88,,€/t_product,,,,Haro et al. (2013); author assumptions based on CAPEX
+Biomasse-DME-MTO,,OPEX,Additional OPEX,,,2022,,85.34,,€/t_product,,,,"Haro et al. (2013); author assumptions based on CAPEX; Includes polymerisation OPEX of €5.00/t PP, equal to 2.5% of €200/t annual PP capacity"
 Biomasse-DME-MTO,,Feedstock demand,Biomass,,,2022,,6.31,,t/t_product,,,,Haro et al. (2013); author aggregation
 Bioethanol,,High CAPEX,CAPEX,,,2022,,563.57,,€/t annual production capacity,,,,Mohsenzadeh et al. (2017); Rueda-Durán et al. (2018); author assumptions for metathesis and aggregation
 Bioethanol,,Energy demand,Electricity,,,2022,,0.4498,,MWh/t_product,,,,Mohsenzadeh et al. (2017); Volk et al. (2021); author assumptions for metathesis and aggregation
 Bioethanol,,Emissions,CO2,,,2022,,0.2,,t/t_product,,,,Mohsenzadeh et al. (2017); Alsabri et al. (2021); author assumptions for metathesis and aggregation
-Bioethanol,,OPEX,Additional OPEX,,,2022,,25,,€/t_product,,,,Mohsenzadeh et al. (2017); author assumptions for metathesis and CAPEX-based OPEX
+Bioethanol,,OPEX,Additional OPEX,,,2022,,14.09,,€/t_product,,,Mohsenzadeh et al. (2017); author assumptions for metathesis; author aggregation,"Aggregated from dehydration (€3.38/t PP), metathesis (€5.71/t PP), and polymerisation (€5.00/t PP); polymerisation OPEX equals 2.5% of €200/t annual PP capacity"
 Bioethanol,,Feedstock demand,Bioethanol,,,2022,,0.65,,t/t_product,,,,Mohsenzadeh et al. (2017); author aggregation
 Bioethanol,,Feedstock demand,Biobutene,,,2022,,0.677,,t/t_product,,,,Author assumption due to lack of specific literature data for the metathesis route
