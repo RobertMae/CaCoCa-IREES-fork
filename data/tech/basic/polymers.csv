@@ -74,14 +74,15 @@ Biomethanol,,Energy demand,Electricity,,,2022,,7.91,,MWh/t_product,,,,Bazzanella
 Biomethanol,,Emissions,CO2,,,2022,,0.2,,t/t_product,,,,Bazzanella and Ausfelder (2017); Markowitsch et al. (2023); Sollai et al. (2023); Alsabri et al. (2021); author aggregation
 Biomethanol,,OPEX,Additional OPEX,,,2022,,151.89,,€/t_product,,,,"Bazzanella and Ausfelder (2017); Markowitsch et al. (2023); Sollai et al. (2023); author assumptions based on CAPEX; Includes polymerisation OPEX of €5.00/t PP, equal to 2.5% of €200/t annual PP capacity"
 Biomethanol,,Feedstock demand,Biomass,,,2022,,6.198,,t/t_product,,,,Bazzanella and Ausfelder (2017); Markowitsch et al. (2023); Sollai et al. (2023); author aggregation
-Biomasse-DME-MTO,,High CAPEX,CAPEX,,,2022,,3413.6,,€/t annual production capacity,,,,Haro et al. (2013); Rueda-Durán et al. (2018); author aggregation
-Biomasse-DME-MTO,,Energy demand,Electricity,,,2022,,0.97,,MWh/t_product,,,,Haro et al. (2013); Volk et al. (2021); author aggregation
-Biomasse-DME-MTO,,Emissions,CO2,,,2022,,0.2,,t/t_product,,,,Haro et al. (2013); Alsabri et al. (2021); author aggregation
-Biomasse-DME-MTO,,OPEX,Additional OPEX,,,2022,,85.34,,€/t_product,,,,"Haro et al. (2013); author assumptions based on CAPEX; Includes polymerisation OPEX of €5.00/t PP, equal to 2.5% of €200/t annual PP capacity"
-Biomasse-DME-MTO,,Feedstock demand,Biomass,,,2022,,6.31,,t/t_product,,,,Haro et al. (2013); author aggregation
-Bioethanol,,High CAPEX,CAPEX,,,2022,,563.57,,€/t annual production capacity,,,,Mohsenzadeh et al. (2017); Rueda-Durán et al. (2018); author assumptions for metathesis and aggregation
-Bioethanol,,Energy demand,Electricity,,,2022,,0.4498,,MWh/t_product,,,,Mohsenzadeh et al. (2017); Volk et al. (2021); author assumptions for metathesis and aggregation
-Bioethanol,,Emissions,CO2,,,2022,,0.2,,t/t_product,,,,Mohsenzadeh et al. (2017); Alsabri et al. (2021); author assumptions for metathesis and aggregation
-Bioethanol,,OPEX,Additional OPEX,,,2022,,14.09,,€/t_product,,,Mohsenzadeh et al. (2017); author assumptions for metathesis; author aggregation,"Aggregated from dehydration (€3.38/t PP), metathesis (€5.71/t PP), and polymerisation (€5.00/t PP); polymerisation OPEX equals 2.5% of €200/t annual PP capacity"
-Bioethanol,,Feedstock demand,Bioethanol,,,2022,,0.65,,t/t_product,,,,Mohsenzadeh et al. (2017); author aggregation
-Bioethanol,,Feedstock demand,Biobutene,,,2022,,0.677,,t/t_product,,,,Author assumption due to lack of specific literature data for the metathesis route
+eSteamcracker_Renewable_Naphtha,,High CAPEX,CAPEX,,,2022,,2710.79,,€/t annual production capacity,,,FutureCamp and Dechema (2019); Volk et al. (2021); Rueda-Duran et al. (2018); author feedstock substitution,
+eSteamcracker_Renewable_Naphtha,,Energy demand,Natural Gas,,,2022,,0.0,,MWh/t_product,,,Author assumption: fully electric process heat,
+eSteamcracker_Renewable_Naphtha,,Energy demand,Electricity,,,2022,,5.16,,MWh/t_product,,,FutureCamp and Dechema (2019); Volk et al. (2021); Rueda-Duran et al. (2018); author feedstock substitution,
+eSteamcracker_Renewable_Naphtha,,Feedstock demand,Renewable Naphtha,,,2022,,1.015,,t/t_product,,,Author feedstock substitution based on the electric naphtha route,
+eSteamcracker_Renewable_Naphtha,,Emissions,CO2,,,2022,,0.2,,t/t_product,,,Existing electric-cracker and polymerisation assumptions,
+eSteamcracker_Renewable_Naphtha,,OPEX,Additional OPEX,,,2022,,67.77,,€/t_product,2.5% CAPEX,Same conversion technology as the fossil-naphtha eSteamcracker route.,FutureCamp and Dechema (2019); Volk et al. (2021); Rueda-Duran et al. (2018); author feedstock substitution,
+Renewable_Propane_PDH,,High CAPEX,CAPEX,,,2022,,1615.170175,,€/t annual production capacity,,2016 USD escalated to 2022 with CEPCI and converted at the 2022 USD/EUR rate; includes polymerisation.,"Agarwal (2018), Tables 3, 4 and 8 and Appendix A.6; author conversion and aggregation to t PP",
+Renewable_Propane_PDH,,Energy demand,Natural Gas,,,2022,,4.878176,,MWh/t_product,,LP steam converted at 90% boiler efficiency; useful renewable PDH offgas heat deducted.,"Agarwal (2018), Tables 3, 4 and 8 and Appendix A.6; author conversion and aggregation to t PP",
+Renewable_Propane_PDH,,Energy demand,Electricity,,,2022,,0.729854,,MWh/t_product,,Agarwal PDH electricity plus common PP polymerisation electricity.,"Agarwal (2018), Tables 3, 4 and 8 and Appendix A.6; author conversion and aggregation to t PP",
+Renewable_Propane_PDH,,Feedstock demand,Renewable Propane,,,2022,,1.194118,,t/t_product,,,"Agarwal (2018), Tables 3, 4 and 8 and Appendix A.6; author conversion and aggregation to t PP",
+Renewable_Propane_PDH,,Emissions,CO2,,,2022,,1.17926,,t/t_product,,Biogenic offgas combustion excluded; residual fossil natural gas plus common polymerisation emissions.,Agarwal (2018); UBA (2022); author calculation,
+Renewable_Propane_PDH,,OPEX,Additional OPEX,,,2022,,93.118284,,€/t_product,,"Consumables, salaries/overheads and maintenance; utilities and feedstock excluded; no hydrogen coproduct credit.","Agarwal (2018), Tables 3, 4 and 8 and Appendix A.6; author conversion and aggregation to t PP",

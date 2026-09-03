@@ -92,7 +92,8 @@ display_names = {
     'Mechanisches Recycling': 'PCW mechanical recycling',
     'Methanolroute': 'CO₂ + H₂ green methanol route',
     'Fischer-Tropsch': 'CO₂ + H₂ Fischer-Tropsch route',
-    'Biomasse-DME-MTO': 'Biomass DME-to-olefins',
+    'Renewable Naphtha E-Steamcracker': 'Renewable naphtha eCracker',
+    'Renewable Propane PDH': 'Renewable propane PDH',
     'Effective CO2 Price': 'CO2-Preis (effektiv)',
     'Industry': 'Sektor',
     'Project name': 'Projekt',
@@ -125,8 +126,8 @@ display_names = {
     'CO2 EoL': 'Hypothetical EoL CO₂ costs',
     'Naphta': 'Naphtha',
     'Biomass': 'Dry biomass',
-    'Bioethanol': 'Bioethanol',
-    'Biobutene': 'Biobuten',
+    'Renewable Naphtha': 'Renewable naphtha',
+    'Renewable Propane': 'Renewable propane',
 }
 
 

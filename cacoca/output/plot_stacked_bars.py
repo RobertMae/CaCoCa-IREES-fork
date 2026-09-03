@@ -22,8 +22,8 @@ colors = {
     'Hydrogen': pl.colors.qualitative.Dark24[0],
     'Effective CO2 Price': 'rgb(0.2, 0.2, 0.2)',
     'Biomass': pl.colors.qualitative.Dark24[18],
-    'Bioethanol': pl.colors.qualitative.Dark24[19],
-    'Biobutene': pl.colors.qualitative.Dark24[20],
+    'Renewable Naphtha': pl.colors.qualitative.Dark24[19],
+    'Renewable Propane': pl.colors.qualitative.Dark24[20],
     'CO2 Cost': 'rgb(0.2, 0.2, 0.2)',
     'CO2 EoL': 'rgba(100,150,150,0.6)'
 }

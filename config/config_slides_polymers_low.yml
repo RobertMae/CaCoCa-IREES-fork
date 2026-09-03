@@ -1,0 +1,39 @@
+ccfd_duration: 20
+crop_figures: true
+default_wacc: 0.06
+do_overwrite_project_start_year: true
+mode: analyze_cost
+output_dir: output/
+project_start_year_overwrite: 2025
+projects_file: config/projects_polymers.csv
+save_figures: true
+scenarios_actual:
+  free_allocations: ''
+  prices:
+    Biomass: ExpertGuess-Biomass
+    CO2: Ariadne-Indikation-ExPol
+    CO2 EoL: Ariadne-Indikation-ExPol
+    Coking Coal: 100 steady
+    DRI-Pellets: DRI-Pellets Agora
+    Electricity: Industry70-150GWh
+    Hydrogen: IndustryLarge
+    Injection Coal: 70 steady
+    Iron Ore: Eisenerz Agora
+    Naphta: Naphtha a)
+    Natural Gas: Industry>4000GJ
+    PCW: ExpertGuess-PCW
+    Renewable Naphtha: Renewable Naphtha 1350
+    Renewable Propane: Renewable Propane 1200
+    Scrap Steel: Zero_Dummy_Scrap
+scenarios_dir: data/scenarios/basic/
+show_figs_in_browser: false
+show_figures: true
+techdata_dir: data/tech/basic/
+techdata_files:
+- basic_chemicals
+- cement
+- glass_and_ceramics
+- other_industries
+- steel
+- steel_dri
+- polymers

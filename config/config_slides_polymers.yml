@@ -1,6 +1,5 @@
-# general:
 mode: analyze_cost
-techdata_dir: 'data/tech/basic/'
+techdata_dir: data/tech/basic/
 techdata_files:
 - basic_chemicals
 - cement
@@ -9,41 +8,32 @@ techdata_files:
 - steel
 - steel_dri
 - polymers
-projects_file: 'config/projects_polymers.csv'
-do_overwrite_project_start_year: True
+projects_file: config/projects_polymers.csv
+do_overwrite_project_start_year: true
 project_start_year_overwrite: 2025
 ccfd_duration: 20
 default_wacc: 0.06
-
-#output
-show_figures: True
-show_figs_in_browser: False
-output_dir: 'output/'
-save_figures: True
-crop_figures: True
-
-# scenarios
-scenarios_dir: 'data/scenarios/basic/'
+show_figures: true
+show_figs_in_browser: false
+output_dir: output/
+save_figures: true
+crop_figures: true
+scenarios_dir: data/scenarios/basic/
 scenarios_actual:
   free_allocations: ''
   prices:
-    #Electricity: 'Ariadne-Indikation-KN2024_Mix-Electricity-EI'
-    Electricity: 'Industry70-150GWh'
-    CO2: 'Ariadne-Indikation-KN2045_Mix'
-    #CO2: 'Ariadne-Indikation-ExPol'
-    #Natural Gas: 'Ariadne-Indikation-KN2024_Mix-NG-EI'
-    Natural Gas: 'Industry>4000GJ'
-    Hydrogen: 'Ariadne-Indikation-KN2024_Mix-Hydrogen-EI'
-    Hydrogen: 'IndustryLarge'
-    Coking Coal: '100 steady'
-    Injection Coal: '70 steady'
-    Iron Ore: 'Eisenerz Agora'
-    Scrap Steel: 'Zero_Dummy_Scrap'
-    DRI-Pellets: 'DRI-Pellets Agora'
-    Naphta: 'Naphtha a)'
-    PCW: 'ExpertGuess-PCW'
-    CO2 EoL: 'Ariadne-Indikation-KN2045_Mix'
-    #CO2 EoL: 'Ariadne-Indikation-ExPol'
-    Biomass: 'ExpertGuess-Biomass'
-    Bioethanol: 'ExpertGuess-Bioethanol'
-    Biobutene: 'ExpertGuess-Biobutene'
+    Electricity: Industry70-150GWh
+    CO2: Ariadne-Indikation-KN2045_Mix
+    Natural Gas: Industry>4000GJ
+    Hydrogen: IndustryLarge
+    Coking Coal: 100 steady
+    Injection Coal: 70 steady
+    Iron Ore: Eisenerz Agora
+    Scrap Steel: Zero_Dummy_Scrap
+    DRI-Pellets: DRI-Pellets Agora
+    Naphta: Naphtha a)
+    PCW: ExpertGuess-PCW
+    CO2 EoL: Ariadne-Indikation-KN2045_Mix
+    Biomass: ExpertGuess-Biomass
+    Renewable Naphtha: Renewable Naphtha 1350
+    Renewable Propane: Renewable Propane 1200
