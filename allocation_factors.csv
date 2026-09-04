@@ -1,0 +1,6 @@
+product,mass_share,reported_price_range,assumed_price_eur_t,economic_allocation_share,source
+Ethylene,0.245,USD 790-870/t,713.8,0.314,Author calculation based on market-price ranges documented in Chapter 7
+Propylene,0.196,"USD 860-1,002/t",800.66,0.282,Author calculation based on market-price ranges documented in Chapter 7
+Butenes and butadiene,0.108,approximately USD 790-805/t,685.85,0.133,Author calculation based on market-price ranges documented in Chapter 7
+BTX aromatics,0.138,USD 800-923/t,720.39,0.179,Author calculation based on market-price ranges documented in Chapter 7
+C5+ products,0.073,approximately USD 665/t,700.04,0.092,Author calculation based on market-price ranges documented in Chapter 7

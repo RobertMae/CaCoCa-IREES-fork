@@ -1,0 +1,313 @@
+component,scenario,scenario_group,year,value,unit,source
+Electricity,Industry70-150GWh,Selected energy/feedstock,2025,110.8,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2026,101.6,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2027,103.6,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2028,91.6,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2029,84,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2030,78,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2031,76.1,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2032,77.1,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2033,79.5,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2034,80.5,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2035,80.2,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2036,79.4,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2037,78.3,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2038,76.6,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2039,74.9,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2040,73.2,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2041,72.6,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2042,72,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2043,71.5,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2044,70.3,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2045,69.8,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2046,59.6,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2047,60.6,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2048,61.6,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2049,62.6,€/MWh,Projektionsbericht2026
+Electricity,Industry70-150GWh,Selected energy/feedstock,2050,63.6,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2025,55.73,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2026,46.25,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2027,42.28,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2028,38.57,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2029,34.58,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2030,30.6,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2031,29.52,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2032,29.19,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2033,28.86,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2034,28.54,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2035,28.22,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2036,27.91,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2037,27.6,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2038,27.3,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2039,26.99,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2040,26.69,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2041,26.7,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2042,26.77,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2043,26.84,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2044,26.92,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2045,26.99,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2046,26.99,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2047,26.98,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2048,26.98,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2049,26.97,€/MWh,Projektionsbericht2026
+Natural Gas,Industry>4000GJ,Selected energy/feedstock,2050,26.97,€/MWh,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2025,6.193575282,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2026,6.06724572,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2027,5.945766098,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2028,5.830687193,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2029,5.723028481,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2030,5.62907045,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2031,5.543654443,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2032,5.385246189,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2033,5.385246189,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2034,5.385246189,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2035,5.062914128,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2036,5.012244046,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2037,4.961573963,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2038,4.910903881,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2039,4.860233799,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2040,4.809563716,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2041,4.735058092,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2042,4.660552468,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2043,4.586046844,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2044,4.51154122,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2045,4.437035596,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2046,4.411517286,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2047,4.385998976,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2048,4.360480666,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2049,4.334962356,€/kg,Projektionsbericht2026
+Hydrogen,IndustryLarge,Selected energy/feedstock,2050,4.309444046,€/kg,Projektionsbericht2026
+Naphta,Naphtha a),Selected energy/feedstock,2025,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2026,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2027,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2028,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2029,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2030,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2031,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2032,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2033,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2034,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2035,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2036,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2037,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2038,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2039,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2040,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2041,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2042,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2043,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2044,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2045,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2046,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2047,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2048,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2049,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Naphta,Naphtha a),Selected energy/feedstock,2050,600,€/t,Rounded conservative market proxy; BASF (2026) reports 2025 average naphtha price of 567 USD/t
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2025,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2026,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2027,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2028,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2029,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2030,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2031,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2032,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2033,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2034,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2035,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2036,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2037,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2038,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2039,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2040,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2041,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2042,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2043,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2044,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2045,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2046,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2047,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2048,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2049,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable naphtha,Renewable naphtha baseline,Selected energy/feedstock,2050,1350,€/t,Author assumption for purchased renewable naphtha; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2025,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2026,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2027,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2028,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2029,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2030,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2031,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2032,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2033,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2034,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2035,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2036,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2037,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2038,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2039,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2040,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2041,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2042,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2043,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2044,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2045,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2046,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2047,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2048,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2049,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+Renewable propane,Renewable propane baseline,Selected energy/feedstock,2050,1200,€/t,Author assumption for purchased renewable propane; constant baseline used in Revision 2
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2025,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2026,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2027,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2028,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2029,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2030,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2031,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2032,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2033,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2034,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2035,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2036,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2037,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2038,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2039,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2040,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2041,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2042,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2043,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2044,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2045,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2046,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2047,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2048,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2049,125,€/t,IREES
+PCW,ExpertGuess-PCW,Selected energy/feedstock,2050,125,€/t,IREES
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2025,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2026,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2027,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2028,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2029,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2030,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2031,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2032,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2033,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2034,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2035,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2036,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2037,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2038,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2039,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2040,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2041,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2042,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2043,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2044,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2045,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2046,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2047,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2048,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2049,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+Biomass,ExpertGuess-Biomass,Selected energy/feedstock,2050,71.2,€/t,"Haro et al. (2013), dry biomass basis"
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2025,80.27,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2026,84.22,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2027,88.16,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2028,92.11,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2029,96.05,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2030,100,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2031,108,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2032,116,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2033,124,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2034,132,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2035,140,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2036,146,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2037,152,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2038,158,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2039,164,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2040,170,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2041,176,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2042,182,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2043,188,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2044,194,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2045,200,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2046,200,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2047,200,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2048,200,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2049,200,€/t,
+CO2,Ariadne-Indikation-ExPol,Low carbon-price scenario,2050,200,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2025,108.84,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2026,127.07,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2027,145.3,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2028,163.54,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2029,181.77,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2030,200,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2031,220,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2032,240,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2033,260,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2034,280,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2035,300,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2036,320,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2037,340,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2038,360,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2039,380,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2040,400,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2041,420,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2042,440,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2043,460,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2044,480,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2045,500,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2046,500,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2047,500,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2048,500,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2049,500,€/t,
+CO2,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2050,500,€/t,
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2025,80.27,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2026,84.22,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2027,88.16,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2028,92.11,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2029,96.05,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2030,100,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2031,108,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2032,116,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2033,124,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2034,132,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2035,140,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2036,146,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2037,152,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2038,158,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2039,164,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2040,170,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2041,176,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2042,182,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2043,188,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2044,194,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2045,200,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2046,200,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2047,200,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2048,200,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2049,200,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-ExPol,Low carbon-price scenario,2050,200,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2025,108.84,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2026,127.07,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2027,145.3,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2028,163.54,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2029,181.77,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2030,200,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2031,220,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2032,240,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2033,260,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2034,280,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2035,300,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2036,320,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2037,340,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2038,360,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2039,380,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2040,400,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2041,420,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2042,440,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2043,460,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2044,480,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2045,500,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2046,500,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2047,500,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2048,500,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2049,500,€/t,Ariadne
+CO2 EoL,Ariadne-Indikation-KN2045_Mix,High carbon-price scenario,2050,500,€/t,Ariadne
