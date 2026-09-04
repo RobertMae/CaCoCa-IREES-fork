@@ -1,0 +1,15 @@
+model_project_name,pathway_name,process_chain
+Steamcracker Naphtha,Fossil naphtha via conventional steam cracking,Conventional steam cracker -> Polymerisation
+E-Steamcracker Naphtha,Fossil naphtha via electric steam cracking,Electric steam cracker -> Polymerisation
+Pyrolyse,PCW via pyrolysis and conventional steam cracking,Plastic-waste pyrolysis -> Pyrolysis-oil upgrading -> Steam cracking of upgraded pyrolysis oil -> Polymerisation
+Pyrolyse E-Steamcracker,PCW via pyrolysis and electric steam cracking,Plastic-waste pyrolysis -> Pyrolysis-oil upgrading -> Electric steam cracking -> Polymerisation
+Hydrocracking,PCW via hydrocracking and conventional steam cracking,Plastic-waste hydrocracking -> Conventional steam cracker -> Polymerisation
+Hydrocracking E-Steamcracker,PCW via hydrocracking and electric steam cracking,Plastic-waste hydrocracking -> Electric steam cracker -> Polymerisation
+Gasifizierung-FT,PCW via gasification-FT and conventional steam cracking,Plastic-waste gasification and Fischer-Tropsch synthesis -> Conventional steam cracker -> Polymerisation
+Gasifizierung-FT E-Steamcracker,PCW via gasification-FT and electric steam cracking,Plastic-waste gasification and Fischer-Tropsch synthesis -> Electric steam cracker -> Polymerisation
+Mechanisches Recycling,PCW via mechanical recycling,Mechanical recycling
+Methanolroute,Captured CO2 and H2 via methanol-to-propylene,CO2 capture by amine scrubbing -> Reverse water-gas shift and methanol synthesis -> Methanol-to-propylene -> Polymerisation
+Fischer-Tropsch,Captured CO2 and H2 via Fischer-Tropsch and electric steam cracking,CO2 capture by amine scrubbing -> Reverse water-gas shift and Fischer-Tropsch synthesis -> Electric steam cracker -> Polymerisation
+Biomethanol,Dry biomass via biomethanol-to-propylene,Biomethanol production -> Methanol-to-propylene -> Polymerisation
+Renewable Naphtha E-Steamcracker,Renewable naphtha via electric steam cracking,Electric steam cracker -> Polymerisation
+Renewable Propane PDH,Renewable propane via conventional PDH,Conventional propane dehydrogenation (PDH) -> PDH utility integration and off-gas heat recovery -> Polymerisation

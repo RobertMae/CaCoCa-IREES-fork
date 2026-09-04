@@ -1,0 +1,88 @@
+file,column,description,unit,notes
+process_step_data.csv,process_step,Reader-facing name of the individual unit or integrated process step,,
+process_step_data.csv,parameter,"Technical, economic, material, energy, or emissions parameter",,
+process_step_data.csv,unit,Native unit in which the process-step value is reported,,
+process_step_data.csv,value,Numerical value used in the curated process-step inventory,As specified in unit,
+process_step_data.csv,source,Literature source or calculation basis,,Author assumptions and calculations are identified explicitly.
+process_step_data.csv,assumption_status,Classification of the evidence basis,,Literature-based; literature-based with author adjustment; author calculation; author assumption
+process_step_data.csv,notes,"Additional qualification, correction, or interpretation",,
+process_step_data.csv,applies_to_pathways,Pathway configurations using the process step,,
+pathway_composition.csv,model_project_name,Project identifier used in projects_polymers.csv,,
+pathway_composition.csv,pathway_name,Reader-facing pathway name,,
+pathway_composition.csv,process_chain,Ordered sequence of process steps,,
+pathway_aggregation_calculations.csv,model_project_name,Project identifier used in projects_polymers.csv,,
+pathway_aggregation_calculations.csv,pathway_name,Reader-facing pathway name,,
+pathway_aggregation_calculations.csv,process_step,Reader-facing process-step name,,
+pathway_aggregation_calculations.csv,process_reference_output,Quantitative reference of the process step used for scaling,,
+pathway_aggregation_calculations.csv,effective_process_scale_per_t_pp,Effective amount of the process reference output required per tonne PP after downstream allocation,process-reference unit/t PP,
+pathway_aggregation_calculations.csv,exchange_or_parameter,Process exchange or parameter contributing to the pathway,,
+pathway_aggregation_calculations.csv,role,"Classification as external input, intermediate input, direct emission, or cost parameter",,
+pathway_aggregation_calculations.csv,process_value,Native process-step value before scaling and allocation,As specified in process_unit,
+pathway_aggregation_calculations.csv,process_unit,Native unit of the process-step value,,
+pathway_aggregation_calculations.csv,allocation_factor,Allocation factor applied to the process exchange for the selected product,fraction,1 for single-output or unallocated exchanges
+pathway_aggregation_calculations.csv,contribution_to_pathway,Process-step contribution after scaling and allocation,As specified in contribution_unit,
+pathway_aggregation_calculations.csv,contribution_unit,Unit of the pathway contribution,,
+pathway_aggregation_calculations.csv,model_component,"CaCoCa component to which the contribution is aggregated, if applicable",,
+pathway_aggregation_calculations.csv,model_aggregated_value,Final rounded value used in polymers.csv,As specified by the CaCoCa component,May differ slightly from the calculated contribution because of rounding.
+pathway_aggregation_calculations.csv,calculation_note,Formula or interpretation used for the contribution,,
+aggregated_pathway_data.csv,technology,Technology identifier used in polymers.csv,,
+aggregated_pathway_data.csv,parameter_type,CaCoCa input category,,"High CAPEX, OPEX, energy demand, feedstock demand, or emissions"
+aggregated_pathway_data.csv,component,Input or output component used by CaCoCa,,
+aggregated_pathway_data.csv,value,Aggregated pathway value per tonne PP,As specified in unit,
+aggregated_pathway_data.csv,unit,Unit used by CaCoCa,,
+aggregated_pathway_data.csv,source,Source(s) and assumption basis for the aggregated value,,
+aggregated_pathway_data.csv,value_comment,Additional comment stored in the model input,,
+aggregated_pathway_data.csv,period,Reference period attached to the technology input,year,The techno-economic values are not time-varying in the model.
+allocation_factors.csv,product,Cracker coproduct used in the economic allocation,,
+allocation_factors.csv,mass_share,Mass share in the product slate,fraction,
+allocation_factors.csv,reported_price_range,Price range used as evidence,,
+allocation_factors.csv,assumed_price_eur_t,Central assumed product price,EUR/t,
+allocation_factors.csv,economic_allocation_share,Resulting share of economic value,fraction,The propylene share of 0.282 is used for CAPEX and OPEX allocation.
+allocation_factors.csv,source,Calculation basis,,
+scenario_inputs.csv,component,"Energy carrier, material feedstock, or carbon-price component",,
+scenario_inputs.csv,scenario,Scenario identifier used in the model configuration,,
+scenario_inputs.csv,scenario_group,Interpretive grouping of the scenario,,
+scenario_inputs.csv,year,Calendar year,year,
+scenario_inputs.csv,value,Price used in the model,As specified in unit,
+scenario_inputs.csv,unit,Price unit,,
+scenario_inputs.csv,source,Source reference stored in the scenario CSV,,
+publication_results.csv,carbon_price_scenario,Carbon-price case used for direct and EoL CO2 prices,,high = KN2045_Mix; low = ExPol
+publication_results.csv,model_project_name,Project identifier from projects_polymers.csv,,
+publication_results.csv,pathway_name,Reader-facing pathway name,,
+publication_results.csv,year,Model year,year,2025-2045
+publication_results.csv,technology,Technology identifier from polymers.csv,,
+publication_results.csv,current_regulatory_cost_eur_per_t_pp,Total modelled production cost excluding the hypothetical fossil end-of-life component,EUR/t PP,Includes direct process carbon cost.
+publication_results.csv,hypothetical_eol_cost_eur_per_t_pp,Separately reported hypothetical end-of-life carbon cost,EUR/t PP,Non-zero only for fossil-naphtha pathways.
+publication_results.csv,analytical_total_cost_eur_per_t_pp,Current regulatory cost plus hypothetical EoL component,EUR/t PP,
+publication_results.csv,capex_annuity_eur_per_t_pp,Annualised capital-cost contribution,EUR/t PP,
+publication_results.csv,additional_opex_eur_per_t_pp,Additional operating expenditure,EUR/t PP,
+publication_results.csv,direct_process_emissions_t_co2_per_t_pp,Aggregated direct process-emission factor,t CO2/t PP,Not a complete consequential LCA.
+publication_results.csv,co2_price_eur_per_t_co2,Selected direct process carbon price,EUR/t CO2,
+publication_results.csv,direct_process_co2_cost_eur_per_t_pp,Direct process emissions multiplied by CO2 price,EUR/t PP,Derived field.
+publication_results.csv,electricity_cost_eur_per_t_pp,Electricity input cost,EUR/t PP,
+publication_results.csv,natural_gas_cost_eur_per_t_pp,Natural-gas input cost,EUR/t PP,
+publication_results.csv,hydrogen_cost_eur_per_t_pp,Hydrogen input cost,EUR/t PP,
+publication_results.csv,naphtha_cost_eur_per_t_pp,Naphtha feedstock cost,EUR/t PP,
+publication_results.csv,pcw_cost_eur_per_t_pp,Processed post-consumer-waste feedstock cost,EUR/t PP,
+publication_results.csv,biomass_cost_eur_per_t_pp,Dry-biomass feedstock cost,EUR/t PP,
+publication_results.csv,renewable_naphtha_cost_eur_per_t_pp,Purchased renewable-naphtha feedstock cost,EUR/t PP,Route 13 only.
+publication_results.csv,renewable_propane_cost_eur_per_t_pp,Purchased renewable-propane feedstock cost,EUR/t PP,Route 14 only.
+sensitivity_results_2045.csv,No.,Display order,,
+sensitivity_results_2045.csv,Model project name,Project identifier,,
+sensitivity_results_2045.csv,Pathway,Reader-facing pathway name,,
+sensitivity_results_2045.csv,Electricity exact (€/t PP),Sensitivity-analysis field,EUR/t PP,
+sensitivity_results_2045.csv,Electricity rounded (€/t PP),Sensitivity-analysis field,EUR/t PP,
+sensitivity_results_2045.csv,Natural gas exact (€/t PP),Sensitivity-analysis field,EUR/t PP,
+sensitivity_results_2045.csv,Natural gas rounded (€/t PP),Sensitivity-analysis field,EUR/t PP,
+sensitivity_results_2045.csv,Hydrogen exact (€/t PP),Sensitivity-analysis field,EUR/t PP,
+sensitivity_results_2045.csv,Hydrogen rounded (€/t PP),Sensitivity-analysis field,EUR/t PP,
+sensitivity_results_2045.csv,CO2 emissions basis (t CO2/t PP),Sensitivity-analysis field,t CO2/t PP,
+sensitivity_results_2045.csv,CO2 includes hypothetical EoL,Whether the fossil EoL factor is included in the low-high CO2 range,,
+sensitivity_results_2045.csv,CO2 exact low-high range (€/t PP),Sensitivity-analysis field,EUR/t PP,
+sensitivity_results_2045.csv,CO2 rounded low-high range (€/t PP),Sensitivity-analysis field,EUR/t PP,
+sensitivity_results_2045.csv,PCW exact (€/t PP),Sensitivity-analysis field,EUR/t PP,
+sensitivity_results_2045.csv,PCW rounded (€/t PP),Sensitivity-analysis field,EUR/t PP,
+sensitivity_results_2045.csv,Feedstock sensitivity,Description of the separately varied material-feedstock price,,
+sensitivity_results_2045.csv,Dry biomass exact (€/t PP),Sensitivity-analysis field,EUR/t PP,
+sensitivity_results_2045.csv,Renewable naphtha exact (€/t PP),Full cost range for the renewable-naphtha price sensitivity,EUR/t PP,
+sensitivity_results_2045.csv,Renewable propane exact (€/t PP),Full cost range for the renewable-propane price sensitivity,EUR/t PP,

@@ -14,6 +14,22 @@ The file [`data/tech/basic/polymers.csv`](data/tech/basic/polymers.csv) contains
 
 The individual process-step assumptions, yields, allocation calculations, sources, and the aggregation from process steps to complete pathways are documented in the Supporting Information accompanying the publication. The aggregation was performed before the CaCoCa calculation, using openLCA. CaCoCa therefore starts from the aggregated pathway values in `polymers.csv`; it does not reconstruct the process chain from individual unit processes.
 
+### Machine-readable Supporting Information
+
+The repository root contains UTF-8 CSV exports corresponding to the workbook [`_Supporting Information/Supporting_Information_PP_pathways_data.xlsx`](_Supporting%20Information/Supporting_Information_PP_pathways_data.xlsx). The package covers the final set of 14 pathways.
+
+| File | Content |
+|---|---|
+| [`process_step_data.csv`](process_step_data.csv) | Individual process-step assumptions, units, sources, assumption status, and pathway applicability |
+| [`pathway_composition.csv`](pathway_composition.csv) | Mapping from the 14 configured projects to reader-facing pathway names and ordered process chains |
+| [`aggregated_pathway_data.csv`](aggregated_pathway_data.csv) | Exact pathway-level CaCoCa inputs from `polymers.csv`, with machine-readable column names |
+| [`allocation_factors.csv`](allocation_factors.csv) | Economic allocation factors for the documented multi-output processes |
+| [`scenario_inputs.csv`](scenario_inputs.csv) | Annual energy, feedstock, and CO₂-price inputs used for the high and low trajectories |
+| [`pathway_aggregation_calculations.csv`](pathway_aggregation_calculations.csv) | Process scale, allocation factor, process-parameter contribution, and corresponding aggregated value |
+| [`publication_results.csv`](publication_results.csv) | Annual results for all 14 pathways, 2025–2045, under both carbon-price trajectories |
+| [`sensitivity_results_2045.csv`](sensitivity_results_2045.csv) | One-at-a-time 2045 sensitivity ranges reported in the manuscript |
+| [`data_dictionary.csv`](data_dictionary.csv) | Column definitions, units, and notes for all machine-readable files |
+
 The final archived release, including the Supporting Information and the model files corresponding to the manuscript, is available via Zenodo:
 
 - <https://doi.org/10.5281/zenodo.18694649>
@@ -52,6 +68,7 @@ The principal publication-specific inputs are:
 | File | Content |
 |---|---|
 | [`data/tech/basic/polymers.csv`](data/tech/basic/polymers.csv) | Aggregated techno-economic and emissions dataset for the 14 polypropylene pathways; not individual process steps |
+| [Supporting Information workbook](_Supporting%20Information/Supporting_Information_PP_pathways_data.xlsx) | Process-step data, pathway composition, allocation, scenario inputs, annual results, sensitivity results, data dictionary, and aggregation calculations |
 | [`config/projects_polymers.csv`](config/projects_polymers.csv) | Pathway selection and project-specific technical assumptions |
 | [`config/config_slides_polymers.yml`](config/config_slides_polymers.yml) | Model settings and selection of price scenarios |
 | [`data/scenarios/basic/prices_co2.csv`](data/scenarios/basic/prices_co2.csv) | Direct process CO₂-price trajectories |

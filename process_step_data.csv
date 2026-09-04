@@ -1,0 +1,103 @@
+process_step,parameter,unit,value,source,assumption_status,notes,applies_to_pathways
+Conventional steam cracker,HVC yield,t HVC/t cracker feed,0.76,FutureCamp and Dechema (2019),Literature-based,,Fossil and all cracker-based recycling/FT pathways
+Conventional steam cracker,Propylene yield,t propylene/t cracker feed,0.196,FutureCamp and Dechema (2019),Literature-based,,Fossil and all cracker-based recycling/FT pathways
+Conventional steam cracker,CAPEX,EUR/t annual HVC capacity,2250.0,FutureCamp and Dechema (2019); author conversion,Literature-based,,Fossil and all cracker-based recycling/FT pathways
+Conventional steam cracker,Converted CAPEX basis,EUR/t annual feed capacity,1710.0,Author conversion from HVC basis,Author calculation,,Fossil and all cracker-based recycling/FT pathways
+Conventional steam cracker,Natural-gas demand,GJ/t HVC,16.5,FutureCamp and Dechema (2019),Literature-based,,Fossil and all cracker-based recycling/FT pathways
+Conventional steam cracker,Natural-gas demand,MWh/t HVC,4.58,Author unit conversion,Author calculation,,Fossil and all cracker-based recycling/FT pathways
+Conventional steam cracker,Electricity demand,GJ/t HVC,1.0,FutureCamp and Dechema (2019),Literature-based,,Fossil and all cracker-based recycling/FT pathways
+Conventional steam cracker,Electricity demand,MWh/t HVC,0.28,Author unit conversion,Author calculation,,Fossil and all cracker-based recycling/FT pathways
+Conventional steam cracker,Direct process emissions,t CO2/t propylene,1.35,Alsabri et al. (2021),Literature-based,,Fossil and all cracker-based recycling/FT pathways
+Conventional steam cracker,Additional OPEX,EUR/t cracker feed,43.75,2.5% of allocated CAPEX,Author assumption,,Fossil and all cracker-based recycling/FT pathways
+Electric steam cracker,HVC yield,t HVC/t cracker feed,0.76,FutureCamp and Dechema (2019); same material conversion as conventional cracker,Literature-based with author assumption,,Fossil naphtha electric; electric cracker variants; renewable naphtha route
+Electric steam cracker,Propylene yield,t propylene/t cracker feed,0.196,FutureCamp and Dechema (2019); same material conversion as conventional cracker,Literature-based with author assumption,,Fossil naphtha electric; electric cracker variants; renewable naphtha route
+Electric steam cracker,CAPEX,EUR/t annual HVC capacity,2250.0,FutureCamp and Dechema (2019); greenfield assumption of identical total cracker CAPEX,Author assumption,,Fossil naphtha electric; electric cracker variants; renewable naphtha route
+Electric steam cracker,Natural-gas demand,GJ/t HVC,0.0,Author calculation: fossil-fired heat fully replaced by electricity,Author assumption,,Fossil naphtha electric; electric cracker variants; renewable naphtha route
+Electric steam cracker,Electricity demand,GJ/t HVC,17.5,FutureCamp and Dechema (2019); total cracker energy supplied electrically,Literature-based with author conversion,,Fossil naphtha electric; electric cracker variants; renewable naphtha route
+Electric steam cracker,Electricity demand,MWh/t HVC,4.86,Author unit conversion,Author calculation,,Fossil naphtha electric; electric cracker variants; renewable naphtha route
+Electric steam cracker,Direct combustion emissions,t CO2/t propylene,0.0,Author assumption for fully electric heat supply; polymerisation emissions remain separate,Author assumption,,Fossil naphtha electric; electric cracker variants; renewable naphtha route
+Electric steam cracker,Additional OPEX,EUR/t cracker feed,43.75,2.5% of allocated CAPEX,Author assumption,,Fossil naphtha electric; electric cracker variants; renewable naphtha route
+Polymerisation,PP yield,t PP/t propylene,0.985,Author assumption,Author assumption,Equivalent to 1.015 t propylene input per tonne PP,All pathways except mechanical recycling
+Polymerisation,CAPEX,EUR/t annual PP capacity,200.0,Rueda-Durán et al. (2018); rounded author assumption,Literature-based with author adjustment,,All pathways except mechanical recycling
+Polymerisation,Propylene input,t propylene/t PP,1.015,Author conversion from 98.5% yield,Author calculation,,All pathways except mechanical recycling
+Polymerisation,Electricity demand,MWh/t PP,0.23,Volk et al. (2021),Literature-based,,All pathways except mechanical recycling
+Polymerisation,Direct process emissions,t CO2/t PP,0.2,Alsabri et al. (2021),Literature-based,Final harmonised value used in the pathway aggregation.,All pathways except mechanical recycling
+Polymerisation,Additional OPEX,EUR/t PP,5.0,2.5% of assumed CAPEX of EUR 200/t annual PP capacity,Author calculation based on author assumption,Calculated as 0.025 × EUR 200/t annual PP capacity.,All pathways except mechanical recycling
+Plastic-waste pyrolysis,Pyrolysis-oil yield,t pyrolysis oil/t PCW,0.6,Biessey et al. (2023); Stallkamp (2023); Stallkamp et al. (2024),Literature-based central estimate,,Pyrolysis conventional and electric
+Plastic-waste pyrolysis,CAPEX,EUR/t annual PCW capacity,100.0,Agora Energiewende and Wuppertal Institut (2019),Literature-based,,Pyrolysis conventional and electric
+Plastic-waste pyrolysis,PCW input,t PCW/t pyrolysis oil,1.667,Author conversion from yield,Author calculation,,Pyrolysis conventional and electric
+Plastic-waste pyrolysis,Electricity demand,MWh/t PCW,0.233,Ausfelder et al. (2026),Literature-based,,Pyrolysis conventional and electric
+Plastic-waste pyrolysis,Direct process emissions,t CO2/t PCW,0.44,Volk et al. (2021),Literature-based,,Pyrolysis conventional and electric
+Plastic-waste pyrolysis,Additional OPEX,EUR/t PCW,2.0,Agora Energiewende and Wuppertal Institut (2019),Literature-based,,Pyrolysis conventional and electric
+Pyrolysis-oil upgrading,Upgraded-oil yield,t upgraded oil/t pyrolysis oil,0.939,Möck et al. (2022),Literature-based,,Pyrolysis conventional and electric
+Pyrolysis-oil upgrading,CAPEX,EUR/t annual pyrolysis-oil capacity,456.0,Letoffet et al. (2024); Sphera (2022),Literature-based,,Pyrolysis conventional and electric
+Pyrolysis-oil upgrading,Pyrolysis-oil input,t pyrolysis oil/t upgraded oil,1.065,Author conversion from yield,Author calculation,,Pyrolysis conventional and electric
+Pyrolysis-oil upgrading,Electricity demand,MWh/t pyrolysis oil,0.098,Letoffet et al. (2024),Literature-based,The openLCA export contained an outdated 0.16 MWh/t value; the final model uses the literature-based 0.098 MWh/t value.,Pyrolysis conventional and electric
+Pyrolysis-oil upgrading,Direct process emissions,t CO2/t pyrolysis oil,0.187,Letoffet et al. (2024),Literature-based,,Pyrolysis conventional and electric
+Pyrolysis-oil upgrading,Hydrogen demand,kg H2/t pyrolysis oil,10.0,Dechema et al. (2021); Sphera (2022),Literature-based,,Pyrolysis conventional and electric
+Pyrolysis-oil upgrading,Additional OPEX,EUR/t pyrolysis oil,11.4,2.5% of CAPEX,Author assumption,,Pyrolysis conventional and electric
+Steam cracking of upgraded pyrolysis oil,HVC yield,t HVC/t cracker feed,0.608,Author assumption: 80% of naphtha-based HVC yield of 0.760,Author assumption,The previous value of 0.760 was the unreduced naphtha reference and has been corrected.,Pyrolysis conventional
+Steam cracking of upgraded pyrolysis oil,Propylene yield,t propylene/t cracker feed,0.1568,Author assumption: 80% of naphtha-based propylene yield of 0.196,Author assumption,The previous value of 0.196 was the unreduced naphtha reference and has been corrected.,Pyrolysis conventional
+Steam cracking of upgraded pyrolysis oil,CAPEX,EUR/t annual HVC capacity,2250.0,FutureCamp and Dechema (2019); author transfer assumption,Literature-based with author assumption,,Pyrolysis conventional
+Steam cracking of upgraded pyrolysis oil,Natural-gas demand,GJ/t HVC,16.5,FutureCamp and Dechema (2019),Literature-based,,Pyrolysis conventional
+Steam cracking of upgraded pyrolysis oil,Electricity demand,GJ/t HVC,1.0,FutureCamp and Dechema (2019),Literature-based,,Pyrolysis conventional
+Steam cracking of upgraded pyrolysis oil,Direct process emissions,t CO2/t propylene,1.35,Alsabri et al. (2021); transferred to upgraded-oil route,Literature-based with author assumption,,Pyrolysis conventional
+Steam cracking of upgraded pyrolysis oil,Additional OPEX,EUR/t cracker feed,85.5,5% of allocated CAPEX to reflect more demanding feedstock,Author assumption,,Pyrolysis conventional
+Plastic-waste hydrocracking,Liquid-product yield,t naphtha substitute/t PCW,0.9,Author assumption informed by Dechema et al. (2021) and Olafasakin et al. (2023),Author assumption,,Hydrocracking conventional and electric
+Plastic-waste hydrocracking,CAPEX,EUR/t annual PCW capacity,2500.0,Olafasakin et al. (2023),Literature-based,Transferred from related thermochemical process evidence,Hydrocracking conventional and electric
+Plastic-waste hydrocracking,PCW input,t PCW/t naphtha substitute,1.111,Author conversion from yield,Author calculation,,Hydrocracking conventional and electric
+Plastic-waste hydrocracking,Electricity demand,MWh/t PCW,0.4,Author assumption,Author assumption,,Hydrocracking conventional and electric
+Plastic-waste hydrocracking,Direct process emissions,t CO2/t PCW,0.702,Olafasakin et al. (2023),Literature-based,,Hydrocracking conventional and electric
+Plastic-waste hydrocracking,Hydrogen demand,kg H2/t PCW,30.0,Author assumption within range reported by Dechema et al. (2021),Author assumption,,Hydrocracking conventional and electric
+Plastic-waste hydrocracking,Additional OPEX,EUR/t PCW,125.0,5% of CAPEX,Author assumption,,Hydrocracking conventional and electric
+Plastic-waste gasification and Fischer-Tropsch synthesis,FT-naphtha yield,t FT naphtha/t PCW,0.603,Ketting (2024),Literature-based,,Gasification-FT conventional and electric
+Plastic-waste gasification and Fischer-Tropsch synthesis,CAPEX,EUR/t annual PCW capacity,2505.0,Ketting (2024),Literature-based,,Gasification-FT conventional and electric
+Plastic-waste gasification and Fischer-Tropsch synthesis,Electricity demand,MWh/t PCW,0.1,Ketting (2024),Literature-based,,Gasification-FT conventional and electric
+Plastic-waste gasification and Fischer-Tropsch synthesis,Direct process emissions,t CO2/t PCW,1.19,Author conversion from Lee et al. (2023),Author calculation,,Gasification-FT conventional and electric
+Plastic-waste gasification and Fischer-Tropsch synthesis,Additional OPEX,EUR/t PCW,207.79,Author assumption used in the process-chain aggregation,Author assumption,This value reproduces the aggregated pathway OPEX of EUR 417.53/t PP after steam-cracker and polymerisation contributions.,Gasification-FT conventional and electric
+Mechanical recycling,rPP yield,t rPP/t PCW,0.85,Nordahl et al. (2023),Literature-based,,Mechanical recycling
+Mechanical recycling,CAPEX,EUR/t annual PCW capacity,95.0,Garcia-Gutierrez et al. (2023),Literature-based,,Mechanical recycling
+Mechanical recycling,PCW input,t PCW/t rPP,1.18,Author conversion from yield,Author calculation,,Mechanical recycling
+Mechanical recycling,Electricity demand,MWh/t PCW,0.492,Midpoint of Larrain et al. (2021) and Nordahl et al. (2023),Literature-based central estimate,,Mechanical recycling
+Mechanical recycling,Direct process emissions,t CO2/t PCW,0.4,Nordahl et al. (2023),Literature-based,,Mechanical recycling
+Mechanical recycling,Additional OPEX,EUR/t PCW,157.4,Garcia-Gutierrez et al. (2023),Literature-based,Reported value may include electricity; retained as applied in the model basis.,Mechanical recycling
+CO2 capture by amine scrubbing,Capture rate,%,90.0,Sollai et al. (2023),Literature-based,,CO2/H2 methanol and FT routes
+CO2 capture by amine scrubbing,CAPEX,EUR/t annual CO2 capture capacity,615.7,Sollai et al. (2023),Literature-based,,CO2/H2 methanol and FT routes
+CO2 capture by amine scrubbing,Electricity demand,MWh/t captured CO2,0.972,Author assumption based on the process configuration in Sollai et al. (2023),Author assumption,,CO2/H2 methanol and FT routes
+CO2 capture by amine scrubbing,Residual direct emissions,t CO2/t captured CO2,0.11,Author calculation based on 90% capture rate,Author calculation,,CO2/H2 methanol and FT routes
+CO2 capture by amine scrubbing,Additional OPEX,EUR/t captured CO2,15.39,2.5% of CAPEX,Author assumption,,CO2/H2 methanol and FT routes
+Reverse water-gas shift and methanol synthesis,Methanol yield,t methanol/t (H2 + CO2),0.605,Sollai et al. (2023),Literature-based,,CO2/H2 methanol route
+Reverse water-gas shift and methanol synthesis,CAPEX,EUR/t annual methanol capacity,280.82,Sollai et al. (2023),Literature-based,,CO2/H2 methanol route
+Reverse water-gas shift and methanol synthesis,Electricity demand,MWh/t methanol,0.2068,Sollai et al. (2023),Literature-based,,CO2/H2 methanol route
+Reverse water-gas shift and methanol synthesis,CO2 demand,t CO2/t methanol,1.446,Sollai et al. (2023),Literature-based,,CO2/H2 methanol route
+Reverse water-gas shift and methanol synthesis,Hydrogen demand,t H2/t methanol,0.208,Sollai et al. (2023),Literature-based,,CO2/H2 methanol route
+Reverse water-gas shift and methanol synthesis,Direct process emissions,t CO2/t methanol,0.05,Sollai et al. (2023),Literature-based,,CO2/H2 methanol route
+Reverse water-gas shift and methanol synthesis,Water coproduct,t H2O/t methanol,0.654,Sollai et al. (2023),Literature-based,,CO2/H2 methanol route
+Reverse water-gas shift and methanol synthesis,Additional OPEX,EUR/t methanol,7.0,2.5% of CAPEX,Author assumption,,CO2/H2 methanol route
+Methanol-to-propylene,HVC yield,t HVC/t methanol,0.46,Markowitsch et al. (2023); product slate excluding water,Literature-based,,CO2/H2 methanol and biomethanol routes
+Methanol-to-propylene,CAPEX,EUR/t annual methanol input,1106.75,Markowitsch et al. (2023); inflation and currency conversion,Literature-based with author conversion,,CO2/H2 methanol and biomethanol routes
+Methanol-to-propylene,Electricity demand,MWh/t methanol,3.06,Markowitsch et al. (2023); author conversion,Literature-based with author conversion,,CO2/H2 methanol and biomethanol routes
+Methanol-to-propylene,Additional OPEX,EUR/t methanol,27.65,2.5% of CAPEX,Author assumption,,CO2/H2 methanol and biomethanol routes
+Reverse water-gas shift and Fischer-Tropsch synthesis,FT-naphtha yield,t FT naphtha/t (H2 + CO2),0.265,Markowitsch et al. (2023),Literature-based,,CO2/H2 FT route
+Reverse water-gas shift and Fischer-Tropsch synthesis,CAPEX,EUR/t annual FT-naphtha capacity,297.892,Author scaling based on Markowitsch et al. (2023),Author calculation,,CO2/H2 FT route
+Reverse water-gas shift and Fischer-Tropsch synthesis,Electricity demand,MWh/t FT naphtha,0.239,Author assumption for compression demand,Author assumption,,CO2/H2 FT route
+Reverse water-gas shift and Fischer-Tropsch synthesis,CO2 demand,t CO2/t FT naphtha,3.307,Markowitsch et al. (2023),Literature-based,,CO2/H2 FT route
+Reverse water-gas shift and Fischer-Tropsch synthesis,Hydrogen demand,kg H2/t FT naphtha,461.9,Markowitsch et al. (2023),Literature-based,,CO2/H2 FT route
+Reverse water-gas shift and Fischer-Tropsch synthesis,Direct process emissions,t CO2/t FT naphtha,0.0157,Markowitsch et al. (2023),Literature-based,,CO2/H2 FT route
+Reverse water-gas shift and Fischer-Tropsch synthesis,Water coproduct,t H2O/t FT naphtha,2.75,Markowitsch et al. (2023),Literature-based,,CO2/H2 FT route
+Reverse water-gas shift and Fischer-Tropsch synthesis,Additional OPEX,EUR/t FT naphtha,7.44,2.5% of CAPEX,Author assumption,,CO2/H2 FT route
+Biomethanol production,Methanol yield,t methanol/t dry biomass,0.385,Bazzanella and Ausfelder (2017),Literature-based,,Biomethanol route
+Biomethanol production,CAPEX,EUR/t annual biomethanol capacity,1360.0,"Author scaling from Bazzanella and Ausfelder (2017), Markowitsch et al. (2023), and Sollai et al. (2023)",Author calculation,,Biomethanol route
+Biomethanol production,Electricity demand,MWh/t biomethanol,0.167,Bazzanella and Ausfelder (2017),Literature-based,,Biomethanol route
+Biomethanol production,Additional OPEX,EUR/t biomethanol,34.0,2.5% of CAPEX,Author assumption,,Biomethanol route
+Conventional propane dehydrogenation (PDH),Renewable propane input,t renewable propane/t PP,1.194,Agarwal (2018); author scaling to the PP functional unit,Literature-based with author conversion,Purchased renewable propane replaces fossil propane; upstream production is represented by its price.,Renewable propane route
+Conventional propane dehydrogenation (PDH),"Electricity demand, PDH block",MWh/t PP,0.5,Agarwal (2018); author conversion,Literature-based with author conversion,"Together with 0.230 MWh/t PP for polymerisation, this gives 0.730 MWh/t PP.",Renewable propane route
+Conventional propane dehydrogenation (PDH),Reported fixed CAPEX,USD_2016/t annual propylene capacity,990,Agarwal (2018),Literature-based,"Original conventional-PDH basis before currency, price-year and functional-unit conversion.",Renewable propane route
+Conventional propane dehydrogenation (PDH),Converted PDH CAPEX contribution,EUR/t annual PP capacity,1415,"Agarwal (2018); author currency, price-year and functional-unit conversion",Author calculation,"Polymerisation adds EUR 200/t annual PP capacity, giving route CAPEX of EUR 1,615/t annual PP capacity.",Renewable propane route
+Conventional propane dehydrogenation (PDH),Reported non-feedstock OPEX,USD_2016/t propylene,76.1,Agarwal (2018),Literature-based,"Original conventional-PDH basis before currency, price-year and functional-unit conversion.",Renewable propane route
+Conventional propane dehydrogenation (PDH),Converted PDH OPEX contribution,EUR/t PP,88,"Agarwal (2018); author currency, price-year and functional-unit conversion",Author calculation,"Polymerisation adds EUR 5/t PP, giving route OPEX of EUR 93/t PP.",Renewable propane route
+Conventional propane dehydrogenation (PDH),Hydrogen coproduct,t H2/t PP,0.0443,Agarwal (2018); author scaling to the PP functional unit,Literature-based with author conversion,No hydrogen coproduct credit is applied in the cost model.,Renewable propane route
+PDH utility integration and off-gas heat recovery,Low-pressure steam demand,MWh_th/t PP,3.333,Agarwal (2018); author unit and functional-unit conversion,Literature-based with author conversion,Intermediate utility used in the net natural-gas calculation.,Renewable propane route
+PDH utility integration and off-gas heat recovery,Fired-heat requirement,MWh_th/t PP,2.237,Agarwal (2018); author unit and functional-unit conversion,Literature-based with author conversion,Gross fired-heat demand before the retained renewable off-gas heat recovery.,Renewable propane route
+PDH utility integration and off-gas heat recovery,Final purchased natural-gas demand,MWh/t PP,4.878,Agarwal (2018); author utility integration and off-gas heat-recovery calculation,Author calculation,Net CaCoCa input after consistent conversion of external utilities and the energetic renewable off-gas credit.,Renewable propane route
+PDH utility integration and off-gas heat recovery,Direct process emissions contribution,t CO2/t PP,0.98,Agarwal (2018); author conversion and boundary treatment,Author calculation,"Together with 0.200 t CO2/t PP from polymerisation, this gives 1.180 t CO2/t PP. Biogenic off-gas CO2 is treated consistently with the manuscript boundary.",Renewable propane route
